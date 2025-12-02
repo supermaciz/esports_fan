@@ -17,7 +17,8 @@ defmodule EsportsFanWeb.Router do
   scope "/", EsportsFanWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    # get "/", PageController, :home
+    live "/", ExampleLive
   end
 
   # Other scopes may use custom stacks.

@@ -10,7 +10,7 @@ defmodule EsportsFan.MixProject do
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
       deps: deps(),
-      compilers: [:phoenix_live_view] ++ Mix.compilers(),
+      compilers: [:phoenix_live_view] ++ Mix.compilers() ++ [:surface],
       listeners: [Phoenix.CodeReloader]
     ]
   end
@@ -65,7 +65,8 @@ defmodule EsportsFan.MixProject do
       {:gettext, "~> 1.0"},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
-      {:bandit, "~> 1.5"}
+      {:bandit, "~> 1.5"},
+      {:surface, "~> 0.12.1"}
     ]
   end
 

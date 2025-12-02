@@ -63,7 +63,9 @@ config :esports_fan, EsportsFanWeb.Endpoint,
       ~r"priv/gettext/.*\.po$"E,
       # Router, Controllers, LiveViews and LiveComponents
       ~r"lib/esports_fan_web/router\.ex$"E,
-      ~r"lib/esports_fan_web/(controllers|live|components)/.*\.(ex|heex)$"E
+      ~r"lib/esports_fan_web/(controllers|live|components)/.*\.(ex|heex)$"E,
+      ~r"lib/my_app_web/live/.*(sface)$",
+      ~r"lib/my_app_web/(live|components)/.*(ex|js)$"
     ]
   ]
 
