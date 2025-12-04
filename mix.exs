@@ -67,7 +67,8 @@ defmodule EsportsFan.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
       {:bandit, "~> 1.5"},
-      {:surface, "~> 0.12.1"}
+      {:surface, "~> 0.12.1"},
+      {:tidewave, "~> 0.5", only: :dev}
     ]
   end
 
