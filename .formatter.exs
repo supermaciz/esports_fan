@@ -1,5 +1,5 @@
 [
-  import_deps: [:ecto, :ecto_sql, :phoenix, :surface],
+  import_deps: [:oban, :ecto, :ecto_sql, :phoenix, :surface],
   subdirectories: ["priv/*/migrations"],
   plugins: [Phoenix.LiveView.HTMLFormatter],
   inputs: [

@@ -11,6 +11,7 @@ defmodule EsportsFan.Application do
       EsportsFanWeb.Telemetry,
       EsportsFan.Repo,
       {DNSCluster, query: Application.get_env(:esports_fan, :dns_cluster_query) || :ignore},
+      {Oban, Application.fetch_env!(:esports_fan, Oban)},
       {Phoenix.PubSub, name: EsportsFan.PubSub},
       # Start a worker by calling: EsportsFan.Worker.start_link(arg)
       # {EsportsFan.Worker, arg},

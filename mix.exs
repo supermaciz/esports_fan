@@ -68,6 +68,8 @@ defmodule EsportsFan.MixProject do
       {:dns_cluster, "~> 0.2.0"},
       {:bandit, "~> 1.5"},
       {:surface, "~> 0.12.1"},
+      {:oban, "~> 2.19"},
+      {:igniter, "~> 0.5", only: [:dev]},
       {:tidewave, "~> 0.5", only: :dev}
     ]
   end

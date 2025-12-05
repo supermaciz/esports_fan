@@ -38,5 +38,6 @@ npm-debug.log
 # Ignore auto-generated hook files
 /assets/js/_hooks/
 
-# Ignore OpenCode configuration file
+# IDEs, tools and editors
 opencode.json
+.idea/

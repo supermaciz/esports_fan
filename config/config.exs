@@ -7,6 +7,18 @@
 # General application configuration
 import Config
 
+config :esports_fan, Oban,
+  engine: Oban.Engines.Basic,
+  notifier: Oban.Notifiers.Postgres,
+  queues: [default: 10, emails: 10],
+  repo: EsportsFan.Repo,
+  plugins: [
+    {Oban.Plugins.Cron,
+     crontab: [
+       {"30 5 * * *", EsportsFan.NewsletterWorker} # every day at 5:30 am
+     ]}
+  ]
+
 config :esports_fan, :scopes,
   user: [
     default: true,
