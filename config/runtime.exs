@@ -23,6 +23,14 @@ end
 config :esports_fan, EsportsFanWeb.Endpoint,
   http: [port: String.to_integer(System.get_env("PORT", "4000"))]
 
+config :esports_fan, EsportsFan.PandascoreAPI,
+  api_key:
+    System.get_env("PANDASCORE_API_KEY") ||
+      raise("""
+      environment variable PANDASCORE_API_KEY is missing.
+      Please set it to your Pandascore API key.
+      """)
+
 if config_env() == :prod do
   database_url =
     System.get_env("DATABASE_URL") ||

@@ -41,3 +41,10 @@ npm-debug.log
 # IDEs, tools and editors
 opencode.json
 .idea/
+.vscode/
+
+# direnv
+.envrc
+
+# some docs
+openapi.json
