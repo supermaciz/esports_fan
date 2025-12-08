@@ -55,6 +55,11 @@ defmodule EsportsFanWeb.Router do
       on_mount: [{EsportsFanWeb.UserAuth, :require_authenticated}] do
       live "/users/settings", UserLive.Settings, :edit
       live "/users/settings/confirm-email/:token", UserLive.Settings, :confirm_email
+
+      live "/user_subscriptions", UserSubscriptionLive.Index, :index
+      live "/user_subscriptions/new", UserSubscriptionLive.Form, :new
+      live "/user_subscriptions/:id", UserSubscriptionLive.Show, :show
+      live "/user_subscriptions/:id/edit", UserSubscriptionLive.Form, :edit
     end
 
     post "/users/update-password", UserSessionController, :update_password

@@ -15,7 +15,7 @@ config :esports_fan, Oban,
   plugins: [
     {Oban.Plugins.Cron,
      crontab: [
-       {"30 5 * * *", EsportsFan.NewsletterWorker} # every day at 5:30 am
+       {"30 5 * * *", EsportsFan.Subscriptions.Checker} # every day at 5:30 am
      ]}
   ]
 
