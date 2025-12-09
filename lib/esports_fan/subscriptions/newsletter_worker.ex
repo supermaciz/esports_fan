@@ -1,7 +1,8 @@
 defmodule EsportsFan.Subscriptions.NewsletterWorker do
+  alias EsportsFan.Repo
   alias EsportsFan.Subscriptions
   alias EsportsFan.Accounts.Scope
-  use Oban.Worker, queue: :emails, max_attempts: 3
+  use Oban.Worker, queue: :emails, max_attempts: 3, unique: [fields: [:args, :queue]]
 
   @impl true
   def perform(%{args: %{"user_id" => user_id}, attempt: 1} = job) do

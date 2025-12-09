@@ -39,7 +39,9 @@ defmodule EsportsFan.Subscriptions.NewsletterWorkerTest do
     assert_enqueued worker: NewsletterWorker, args: %{"user_id" => user.id}
   end
 
-  test "does not send & schedule newsletter email when user has no subscriptions", %{no_sub_user: user} do
+  test "does not send & schedule newsletter email when user has no subscriptions", %{
+    no_sub_user: user
+  } do
     assert {:ok, _} = perform_job(NewsletterWorker, %{"user_id" => user.id})
     refute_email_sent()
     refute_enqueued worker: NewsletterWorker, args: %{"user_id" => user.id}
@@ -51,5 +53,18 @@ defmodule EsportsFan.Subscriptions.NewsletterWorkerTest do
     after
       100 -> nil
     end
+  end
+
+  test "does not insert duplicate scheduled jobs", %{user: user} do
+    # First job should be inserted
+    assert {:ok, job} = perform_job(NewsletterWorker, %{"user_id" => user.id})
+    assert_enqueued worker: NewsletterWorker, args: %{"user_id" => user.id}
+    job_id = job.id
+
+    # Second job should not create a duplicate
+    assert {:ok, %Oban.Job{conflict?: true}} =
+             perform_job(NewsletterWorker, %{"user_id" => user.id})
+
+    assert [%{id: ^job_id}] = all_enqueued(worker: NewsletterWorker)
   end
 end
