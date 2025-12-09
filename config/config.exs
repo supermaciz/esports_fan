@@ -11,13 +11,7 @@ config :esports_fan, Oban,
   engine: Oban.Engines.Basic,
   notifier: Oban.Notifiers.Postgres,
   queues: [default: 10, emails: 10],
-  repo: EsportsFan.Repo,
-  plugins: [
-    {Oban.Plugins.Cron,
-     crontab: [
-       {"30 5 * * *", EsportsFan.Subscriptions.Checker} # every day at 5:30 am
-     ]}
-  ]
+  repo: EsportsFan.Repo
 
 config :esports_fan, :scopes,
   user: [

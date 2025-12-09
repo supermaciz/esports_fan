@@ -144,4 +144,8 @@ defmodule EsportsFan.Subscriptions do
 
     UserSubscription.changeset(user_subscription, attrs, scope)
   end
+
+  def default_frequency_days do
+    7
+  end
 end
