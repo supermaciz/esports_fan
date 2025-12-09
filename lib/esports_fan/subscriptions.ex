@@ -80,6 +80,11 @@ defmodule EsportsFan.Subscriptions do
            |> UserSubscription.changeset(attrs, scope)
            |> Repo.insert() do
       broadcast_user_subscription(scope, {:created, user_subscription})
+
+      %{user_id: scope.user.id}
+      |> EsportsFan.Subscriptions.NewsletterWorker.new()
+      |> Oban.insert()
+
       {:ok, user_subscription}
     end
   end
@@ -139,7 +144,11 @@ defmodule EsportsFan.Subscriptions do
       %Ecto.Changeset{data: %UserSubscription{}}
 
   """
-  def change_user_subscription(%Scope{} = scope, %UserSubscription{} = user_subscription, attrs \\ %{}) do
+  def change_user_subscription(
+        %Scope{} = scope,
+        %UserSubscription{} = user_subscription,
+        attrs \\ %{}
+      ) do
     true = user_subscription.user_id == scope.user.id
 
     UserSubscription.changeset(user_subscription, attrs, scope)

@@ -47,14 +47,6 @@ defmodule EsportsFan.Subscriptions.NewsletterWorkerTest do
     refute_enqueued worker: NewsletterWorker, args: %{"user_id" => user.id}
   end
 
-  defp receive_mail do
-    receive do
-      {:email, email} -> email
-    after
-      100 -> nil
-    end
-  end
-
   test "does not insert duplicate scheduled jobs", %{user: user} do
     # First job should be inserted
     assert {:ok, job} = perform_job(NewsletterWorker, %{"user_id" => user.id})
@@ -66,5 +58,13 @@ defmodule EsportsFan.Subscriptions.NewsletterWorkerTest do
              perform_job(NewsletterWorker, %{"user_id" => user.id})
 
     assert [%{id: ^job_id}] = all_enqueued(worker: NewsletterWorker)
+  end
+
+  defp receive_mail do
+    receive do
+      {:email, email} -> email
+    after
+      100 -> nil
+    end
   end
 end

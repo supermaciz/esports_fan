@@ -1,5 +1,4 @@
 defmodule EsportsFan.Subscriptions.NewsletterWorker do
-  alias EsportsFan.Repo
   alias EsportsFan.Subscriptions
   alias EsportsFan.Accounts.Scope
   use Oban.Worker, queue: :emails, max_attempts: 3, unique: [fields: [:args, :queue]]
@@ -13,8 +12,8 @@ defmodule EsportsFan.Subscriptions.NewsletterWorker do
         {:ok, :no_newsletter_sent}
 
       subs ->
-        send_newsletter(user, subs)
         schedule_next_newsletter(job, user_id)
+        send_newsletter(user, subs)
     end
   end
 
