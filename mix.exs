@@ -69,6 +69,7 @@ defmodule EsportsFan.MixProject do
       {:bandit, "~> 1.5"},
       {:surface, "~> 0.12.1"},
       {:oban, "~> 2.19"},
+      {:con_cache, "~> 1.1"},
       {:igniter, "~> 0.5", only: [:dev]},
       {:tidewave, "~> 0.5", only: :dev}
     ]

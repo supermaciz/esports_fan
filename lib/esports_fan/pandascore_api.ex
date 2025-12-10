@@ -14,6 +14,7 @@ defmodule EsportsFan.PandascoreAPI do
   end
 
   require Logger
+  alias EsportsFan.Cache
 
   @base_url "https://api.pandascore.co"
   @tournament_tiers ["s", "a", "b", "c"]
@@ -22,38 +23,55 @@ defmodule EsportsFan.PandascoreAPI do
   Fetches League of Legends matches for the past and next `n_days`.
 
   Returns matches only from tournaments of relevant tiers.
+  The results are cached.
   """
-  def get_lol_matches_for_n_days(n_days) do
-    get_matches_for_n_days("lol", n_days)
+  @spec get_lol_matches_for_n_days(non_neg_integer(), Keyword.t()) ::
+          {:ok, list()} | {:error, any()}
+  def get_lol_matches_for_n_days(n_days, req_opts \\ []) do
+    Cache.get("lol_matches_#{n_days}", fn ->
+      get_matches_for_n_days("lol", n_days, req_opts)
+    end)
   end
 
   @doc """
   Fetches Counter-Strike 2 matches for the past and next `n_days`.
 
   Returns matches only from tournaments of relevant tiers.
+  The results are cached.
   """
-  def get_cs_matches_for_n_days(n_days) do
-    get_matches_for_n_days("csgo", n_days)
+  @spec get_cs_matches_for_n_days(non_neg_integer(), Keyword.t()) ::
+          {:ok, list()} | {:error, any()}
+  def get_cs_matches_for_n_days(n_days, req_opts \\ []) do
+    Cache.get("csgo_matches_#{n_days}", fn ->
+      get_matches_for_n_days("csgo", n_days, req_opts)
+    end)
   end
 
-  defp get_matches_for_n_days(videogame_prefix, n_days) do
+  defp get_matches_for_n_days(videogame_prefix, n_days, req_opts) do
     now = DateTime.utc_now()
     past_date = DateTime.add(now, -n_days, :day)
     future_date = DateTime.add(now, n_days, :day)
 
-    matches =
-      get_all!("/#{videogame_prefix}/matches",
-        params: [
-          "range[begin_at]":
-            "#{DateTime.to_iso8601(past_date)},#{DateTime.to_iso8601(future_date)}",
-          "filter[opponents_filled]": true
-        ]
-      )
+    full_req_opts =
+      (req_opts ++
+         [
+           params: [
+             "range[begin_at]":
+               "#{DateTime.to_iso8601(past_date)},#{DateTime.to_iso8601(future_date)}",
+             "filter[opponents_filled]": true
+           ]
+         ])
 
-    targeted_matches =
-      Enum.filter(matches, fn m -> m["tournament"]["tier"] in @tournament_tiers end)
+    try do
+      matches = get_all!("/#{videogame_prefix}/matches", full_req_opts)
 
-    targeted_matches
+      targeted_matches =
+        Enum.filter(matches, fn m -> m["tournament"]["tier"] in @tournament_tiers end)
+
+      {:ok, targeted_matches}
+    rescue
+      e -> {:error, e}
+    end
   end
 
   @doc """

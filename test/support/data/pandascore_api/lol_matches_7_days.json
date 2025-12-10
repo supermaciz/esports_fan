@@ -1,0 +1,5001 @@
+[
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "HLE",
+          "dark_mode_image_url": null,
+          "id": 2883,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "Hanwha Life Esports",
+          "slug": "hanwha-life-esports"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "T1",
+          "dark_mode_image_url": null,
+          "id": 126061,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126061/t_oscq04.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "T1",
+          "slug": "t1"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-11T08:30:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-11T08:30:00Z",
+    "tournament": {
+      "begin_at": "2025-12-11T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-14T13:00:00Z",
+      "has_bracket": true,
+      "id": 18296,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-09T13:06:04Z",
+      "name": "Playoffs",
+      "prizepool": "67954 United States Dollar",
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-playoffs",
+      "tier": "c",
+      "type": "offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": true,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 273399,
+        "length": null,
+        "match_id": 1276432,
+        "position": 1,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": true,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 273400,
+        "length": null,
+        "match_id": 1276432,
+        "position": 2,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": true,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 273401,
+        "length": null,
+        "match_id": 1276432,
+        "position": 3,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18296,
+    "rescheduled": false,
+    "league_id": 2711,
+    "status": "not_started",
+    "forfeit": false,
+    "name": "Upper bracket semifinal 2: HLE vs T1",
+    "id": 1276432,
+    "match_type": "best_of",
+    "videogame_version": null,
+    "winner": null,
+    "number_of_games": 3,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 2883
+      },
+      {
+        "score": 0,
+        "team_id": 126061
+      }
+    ],
+    "streams_list": [],
+    "begin_at": "2025-12-11T08:30:00Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-09T07:06:36Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": null,
+    "detailed_stats": true,
+    "end_at": null,
+    "slug": "2025-12-11-dcafd508-4c6c-4e54-beab-8f0e30f00401"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "DK",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+          "id": 132531,
+          "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:18Z",
+          "name": "Dplus KIA",
+          "slug": "dplus-kia"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "NS",
+          "dark_mode_image_url": null,
+          "id": 128217,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T13:06:04Z",
+          "name": "Nongshim Red Force",
+          "slug": "nongshim-red-force"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-11T06:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-11T06:00:00Z",
+    "tournament": {
+      "begin_at": "2025-12-11T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-14T13:00:00Z",
+      "has_bracket": true,
+      "id": 18296,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-09T13:06:04Z",
+      "name": "Playoffs",
+      "prizepool": "67954 United States Dollar",
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-playoffs",
+      "tier": "c",
+      "type": "offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": true,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 273396,
+        "length": null,
+        "match_id": 1276431,
+        "position": 1,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": true,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 273397,
+        "length": null,
+        "match_id": 1276431,
+        "position": 2,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": null,
+        "complete": false,
+        "detailed_stats": true,
+        "end_at": null,
+        "finished": false,
+        "forfeit": false,
+        "id": 273398,
+        "length": null,
+        "match_id": 1276431,
+        "position": 3,
+        "status": "not_started",
+        "winner": {
+          "id": null,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18296,
+    "rescheduled": false,
+    "league_id": 2711,
+    "status": "not_started",
+    "forfeit": false,
+    "name": "Upper bracket semifinal 1: DK vs NS",
+    "id": 1276431,
+    "match_type": "best_of",
+    "videogame_version": null,
+    "winner": null,
+    "number_of_games": 3,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 132531
+      },
+      {
+        "score": 0,
+        "team_id": 128217
+      }
+    ],
+    "streams_list": [],
+    "begin_at": "2025-12-11T06:00:00Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-09T13:06:13Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": null,
+    "detailed_stats": true,
+    "end_at": null,
+    "slug": "2025-12-11-b3e4e5e0-9366-41e9-b014-427eb7e5573f"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "NS",
+          "dark_mode_image_url": null,
+          "id": 128217,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T13:06:04Z",
+          "name": "Nongshim Red Force",
+          "slug": "nongshim-red-force"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "DNF",
+          "dark_mode_image_url": null,
+          "id": 136063,
+          "image_url": "https://cdn.pandascore.co/images/team/image/136063/390px_dn_freecs_full_allmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-08T18:32:59Z",
+          "name": "DN Freecs",
+          "slug": "dn-freecs"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-09T10:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-09T11:00:00Z",
+    "tournament": {
+      "begin_at": "2025-12-09T05:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-09T13:00:00Z",
+      "has_bracket": true,
+      "id": 18145,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-09T12:14:21Z",
+      "name": "Breakout Stage",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-breakout-stage",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-09T10:58:58Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-09T11:30:28Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273363,
+        "length": 1490,
+        "match_id": 1270952,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 128217,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2025-12-09T11:45:13Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-09T12:18:10Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273364,
+        "length": 1513,
+        "match_id": 1270952,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 128217,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18145,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "NS vs DNF",
+    "id": 1270952,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "NS",
+      "dark_mode_image_url": null,
+      "id": 128217,
+      "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T13:06:04Z",
+      "name": "Nongshim Red Force",
+      "slug": "nongshim-red-force"
+    },
+    "number_of_games": 3,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 2,
+        "team_id": 128217
+      },
+      {
+        "score": 0,
+        "team_id": 136063
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/rX7dKjt7WdI",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=rX7dKjt7WdI"
+      }
+    ],
+    "begin_at": "2025-12-09T10:58:56Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-09T12:53:46Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 128217,
+    "detailed_stats": true,
+    "end_at": "2025-12-09T12:18:09Z",
+    "slug": "2025-12-09-847b9812-6e2f-46f2-8cb6-d0fdf4e795e8"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "DNF",
+          "dark_mode_image_url": null,
+          "id": 136063,
+          "image_url": "https://cdn.pandascore.co/images/team/image/136063/390px_dn_freecs_full_allmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-08T18:32:59Z",
+          "name": "DN Freecs",
+          "slug": "dn-freecs"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "C9",
+          "dark_mode_image_url": null,
+          "id": 1097,
+          "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+          "location": "US",
+          "modified_at": "2025-12-09T10:42:53Z",
+          "name": "Cloud9",
+          "slug": "cloud9"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-09T07:30:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-09T08:55:00Z",
+    "tournament": {
+      "begin_at": "2025-12-09T05:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-09T13:00:00Z",
+      "has_bracket": true,
+      "id": 18145,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-09T12:14:21Z",
+      "name": "Breakout Stage",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-breakout-stage",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-09T08:58:33Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-09T09:32:00Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273360,
+        "length": 1734,
+        "match_id": 1270951,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 1097,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2025-12-09T09:47:29Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-09T10:22:27Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273361,
+        "length": 1637,
+        "match_id": 1270951,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 1097,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18145,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "DNF vs C9",
+    "id": 1270951,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "C9",
+      "dark_mode_image_url": null,
+      "id": 1097,
+      "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+      "location": "US",
+      "modified_at": "2025-12-09T10:42:53Z",
+      "name": "Cloud9",
+      "slug": "cloud9"
+    },
+    "number_of_games": 3,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 136063
+      },
+      {
+        "score": 2,
+        "team_id": 1097
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://player.twitch.tv/?channel=gabbagaming1",
+        "language": "en",
+        "main": false,
+        "official": false,
+        "raw_url": "https://www.twitch.tv/gabbagaming1"
+      },
+      {
+        "embed_url": "https://player.twitch.tv/?channel=madeinabysz",
+        "language": "ru",
+        "main": false,
+        "official": false,
+        "raw_url": "https://www.twitch.tv/madeinabysz"
+      },
+      {
+        "embed_url": "https://player.twitch.tv/?channel=kespalck123",
+        "language": "zh",
+        "main": false,
+        "official": false,
+        "raw_url": "https://www.twitch.tv/kespalck123"
+      },
+      {
+        "embed_url": "https://www.youtube.com/embed/rX7dKjt7WdI",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=rX7dKjt7WdI"
+      }
+    ],
+    "begin_at": "2025-12-09T08:58:31Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-09T10:45:11Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 1097,
+    "detailed_stats": true,
+    "end_at": "2025-12-09T10:22:27Z",
+    "slug": "2025-12-09-7223160f-cdcb-4677-87fa-bb8ce6b4180e"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "C9",
+          "dark_mode_image_url": null,
+          "id": 1097,
+          "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+          "location": "US",
+          "modified_at": "2025-12-09T10:42:53Z",
+          "name": "Cloud9",
+          "slug": "cloud9"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "NS",
+          "dark_mode_image_url": null,
+          "id": 128217,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T13:06:04Z",
+          "name": "Nongshim Red Force",
+          "slug": "nongshim-red-force"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-09T05:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-09T06:00:00Z",
+    "tournament": {
+      "begin_at": "2025-12-09T05:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-09T13:00:00Z",
+      "has_bracket": true,
+      "id": 18145,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-09T12:14:21Z",
+      "name": "Breakout Stage",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-breakout-stage",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-09T06:01:19Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-09T06:28:54Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273357,
+        "length": 1384,
+        "match_id": 1270950,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 128217,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2025-12-09T06:44:06Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-09T07:23:53Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273358,
+        "length": 2003,
+        "match_id": 1270950,
+        "position": 2,
+        "status": "finished",
+        "winner": {
+          "id": 1097,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      },
+      {
+        "begin_at": "2025-12-09T07:39:42Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-09T08:10:47Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273359,
+        "length": 1547,
+        "match_id": 1270950,
+        "position": 3,
+        "status": "finished",
+        "winner": {
+          "id": 128217,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18145,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "C9 vs NS",
+    "id": 1270950,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "NS",
+      "dark_mode_image_url": null,
+      "id": 128217,
+      "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T13:06:04Z",
+      "name": "Nongshim Red Force",
+      "slug": "nongshim-red-force"
+    },
+    "number_of_games": 3,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 1097
+      },
+      {
+        "score": 2,
+        "team_id": 128217
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/rX7dKjt7WdI",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=rX7dKjt7WdI"
+      }
+    ],
+    "begin_at": "2025-12-09T06:01:17Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-09T08:50:55Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 128217,
+    "detailed_stats": true,
+    "end_at": "2025-12-09T08:10:46Z",
+    "slug": "2025-12-09-f900e22e-5938-428d-bb68-5f74db058a0d"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "DK",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+          "id": 132531,
+          "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:18Z",
+          "name": "Dplus KIA",
+          "slug": "dplus-kia"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "KT",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/63/kt_rolster_2021_full_darkmode.png",
+          "id": 63,
+          "image_url": "https://cdn.pandascore.co/images/team/image/63/kt_rolsterlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-06T14:00:19Z",
+          "name": "KT Rolster",
+          "slug": "kt-rolster"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-08T11:15:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-08T12:05:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-08T12:07:48Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-08T12:43:05Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273339,
+        "length": 1541,
+        "match_id": 1269925,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 132531,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "DK vs KT",
+    "id": 1269925,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "DK",
+      "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+      "id": 132531,
+      "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:18Z",
+      "name": "Dplus KIA",
+      "slug": "dplus-kia"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 132531
+      },
+      {
+        "score": 0,
+        "team_id": 63
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/53oNAbIA3zY",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=53oNAbIA3zY"
+      }
+    ],
+    "begin_at": "2025-12-08T12:07:45Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-08T13:10:19Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 132531,
+    "detailed_stats": true,
+    "end_at": "2025-12-08T12:43:05Z",
+    "slug": "dplus-kia-vs-kt-rolster-2025-12-08"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "JPN",
+          "dark_mode_image_url": null,
+          "id": 133695,
+          "image_url": "https://cdn.pandascore.co/images/team/image/133695/japan__2528_national_team_2529logo_square.png",
+          "location": "JP",
+          "modified_at": "2025-12-04T12:43:27Z",
+          "name": "Japan",
+          "slug": "japan-league-of-legends"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "TL",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/390/463px_team_liquid_2024_full_darkmode.png",
+          "id": 390,
+          "image_url": "https://cdn.pandascore.co/images/team/image/390/463px_team_liquid_2024_full_lightmode.png",
+          "location": "NL",
+          "modified_at": "2025-12-04T12:43:26Z",
+          "name": "Team Liquid",
+          "slug": "liquid"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-08T10:30:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-08T11:20:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T12:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T11:30:00Z",
+      "has_bracket": false,
+      "id": 18096,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T11:55:50Z",
+      "name": "Group C",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-c",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-08T11:17:52Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-08T11:54:03Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273338,
+        "length": 1592,
+        "match_id": 1269924,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 390,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18096,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "JPN vs TL",
+    "id": 1269924,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "TL",
+      "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/390/463px_team_liquid_2024_full_darkmode.png",
+      "id": 390,
+      "image_url": "https://cdn.pandascore.co/images/team/image/390/463px_team_liquid_2024_full_lightmode.png",
+      "location": "NL",
+      "modified_at": "2025-12-04T12:43:26Z",
+      "name": "Team Liquid",
+      "slug": "liquid"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 133695
+      },
+      {
+        "score": 1,
+        "team_id": 390
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/53oNAbIA3zY",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=53oNAbIA3zY"
+      }
+    ],
+    "begin_at": "2025-12-08T11:17:50Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-08T12:44:00Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 390,
+    "detailed_stats": true,
+    "end_at": "2025-12-08T11:54:02Z",
+    "slug": "japan-vs-team-liquid-2025-12-08"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "DRX",
+          "dark_mode_image_url": null,
+          "id": 126370,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126370/220px_dr_xlogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-06T07:54:10Z",
+          "name": "DRX",
+          "slug": "dragonx"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "DNF",
+          "dark_mode_image_url": null,
+          "id": 136063,
+          "image_url": "https://cdn.pandascore.co/images/team/image/136063/390px_dn_freecs_full_allmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-08T18:32:59Z",
+          "name": "DN Freecs",
+          "slug": "dn-freecs"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-08T09:45:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-08T10:15:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-08T10:19:29Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-08T11:00:22Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273337,
+        "length": 1879,
+        "match_id": 1269923,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 136063,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "DRX vs DNF",
+    "id": 1269923,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "DNF",
+      "dark_mode_image_url": null,
+      "id": 136063,
+      "image_url": "https://cdn.pandascore.co/images/team/image/136063/390px_dn_freecs_full_allmode.png",
+      "location": "KR",
+      "modified_at": "2025-12-08T18:32:59Z",
+      "name": "DN Freecs",
+      "slug": "dn-freecs"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 126370
+      },
+      {
+        "score": 1,
+        "team_id": 136063
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/53oNAbIA3zY",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=53oNAbIA3zY"
+      }
+    ],
+    "begin_at": "2025-12-08T10:19:27Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-08T11:53:19Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 136063,
+    "detailed_stats": true,
+    "end_at": "2025-12-08T11:00:21Z",
+    "slug": "drx-vs-dn-freecs-2025-12-08"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "TL",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/390/463px_team_liquid_2024_full_darkmode.png",
+          "id": 390,
+          "image_url": "https://cdn.pandascore.co/images/team/image/390/463px_team_liquid_2024_full_lightmode.png",
+          "location": "NL",
+          "modified_at": "2025-12-04T12:43:26Z",
+          "name": "Team Liquid",
+          "slug": "liquid"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "T1",
+          "dark_mode_image_url": null,
+          "id": 126061,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126061/t_oscq04.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "T1",
+          "slug": "t1"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-08T09:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-08T09:30:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T12:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T11:30:00Z",
+      "has_bracket": false,
+      "id": 18096,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T11:55:50Z",
+      "name": "Group C",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-c",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-08T09:34:58Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-08T10:05:27Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273336,
+        "length": 1313,
+        "match_id": 1269922,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126061,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18096,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "TL vs T1",
+    "id": 1269922,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "T1",
+      "dark_mode_image_url": null,
+      "id": 126061,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126061/t_oscq04.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:19Z",
+      "name": "T1",
+      "slug": "t1"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 390
+      },
+      {
+        "score": 1,
+        "team_id": 126061
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/53oNAbIA3zY",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=53oNAbIA3zY"
+      }
+    ],
+    "begin_at": "2025-12-08T09:34:55Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-08T10:37:51Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 126061,
+    "detailed_stats": true,
+    "end_at": "2025-12-08T10:05:27Z",
+    "slug": "team-liquid-vs-t1-2025-12-08"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "C9",
+          "dark_mode_image_url": null,
+          "id": 1097,
+          "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+          "location": "US",
+          "modified_at": "2025-12-09T10:42:53Z",
+          "name": "Cloud9",
+          "slug": "cloud9"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "FOX",
+          "dark_mode_image_url": null,
+          "id": 134115,
+          "image_url": "https://cdn.pandascore.co/images/team/image/134115/bnk_fear_xlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-04T12:53:09Z",
+          "name": "BNK FEARX",
+          "slug": "fearx"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-08T08:15:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-08T08:30:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-08T08:31:24Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-08T09:17:57Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273335,
+        "length": 2406,
+        "match_id": 1269921,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 1097,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "C9 vs FOX",
+    "id": 1269921,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "C9",
+      "dark_mode_image_url": null,
+      "id": 1097,
+      "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+      "location": "US",
+      "modified_at": "2025-12-09T10:42:53Z",
+      "name": "Cloud9",
+      "slug": "cloud9"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 1097
+      },
+      {
+        "score": 0,
+        "team_id": 134115
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/53oNAbIA3zY",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=53oNAbIA3zY"
+      }
+    ],
+    "begin_at": "2025-12-08T08:31:22Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-08T09:52:14Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 1097,
+    "detailed_stats": true,
+    "end_at": "2025-12-08T09:17:56Z",
+    "slug": "cloud9-vs-bnk-fearx-2025-12-08"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "NS",
+          "dark_mode_image_url": null,
+          "id": 128217,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T13:06:04Z",
+          "name": "Nongshim Red Force",
+          "slug": "nongshim-red-force"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "JPN",
+          "dark_mode_image_url": null,
+          "id": 133695,
+          "image_url": "https://cdn.pandascore.co/images/team/image/133695/japan__2528_national_team_2529logo_square.png",
+          "location": "JP",
+          "modified_at": "2025-12-04T12:43:27Z",
+          "name": "Japan",
+          "slug": "japan-league-of-legends"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-08T07:30:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-08T07:45:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T12:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T11:30:00Z",
+      "has_bracket": false,
+      "id": 18096,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T11:55:50Z",
+      "name": "Group C",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-c",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-08T07:37:35Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-08T08:16:53Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273334,
+        "length": 1486,
+        "match_id": 1269920,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 128217,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18096,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "NS vs JPN",
+    "id": 1269920,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "NS",
+      "dark_mode_image_url": null,
+      "id": 128217,
+      "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T13:06:04Z",
+      "name": "Nongshim Red Force",
+      "slug": "nongshim-red-force"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 128217
+      },
+      {
+        "score": 0,
+        "team_id": 133695
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/53oNAbIA3zY",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=53oNAbIA3zY"
+      }
+    ],
+    "begin_at": "2025-12-08T07:37:31Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-08T09:51:50Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 128217,
+    "detailed_stats": true,
+    "end_at": "2025-12-08T08:16:53Z",
+    "slug": "nongshim-red-force-vs-japan-2025-12-08"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "GEN",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/2882/499px_gen.g_esports_2019_full_darkmode.png",
+          "id": 2882,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2882/500px_gen.g_esports_2019_full_lightmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-07T09:47:27Z",
+          "name": "Gen.G",
+          "slug": "geng"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "HLE",
+          "dark_mode_image_url": null,
+          "id": 2883,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "Hanwha Life Esports",
+          "slug": "hanwha-life-esports"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-08T06:45:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-08T06:45:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-08T06:49:39Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-08T07:22:49Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273333,
+        "length": 1352,
+        "match_id": 1269919,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 2883,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": false,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "GEN vs HLE",
+    "id": 1269919,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "HLE",
+      "dark_mode_image_url": null,
+      "id": 2883,
+      "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:19Z",
+      "name": "Hanwha Life Esports",
+      "slug": "hanwha-life-esports"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 2882
+      },
+      {
+        "score": 1,
+        "team_id": 2883
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": null,
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/@KeSPA/streams"
+      }
+    ],
+    "begin_at": "2025-12-08T06:49:37Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-08T07:49:27Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 2883,
+    "detailed_stats": true,
+    "end_at": "2025-12-08T07:22:48Z",
+    "slug": "gen-g-vs-hanwha-life-esports-2025-12-08"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "T1",
+          "dark_mode_image_url": null,
+          "id": 126061,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126061/t_oscq04.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "T1",
+          "slug": "t1"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "NS",
+          "dark_mode_image_url": null,
+          "id": 128217,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T13:06:04Z",
+          "name": "Nongshim Red Force",
+          "slug": "nongshim-red-force"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-08T06:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-08T06:00:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T12:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T11:30:00Z",
+      "has_bracket": false,
+      "id": 18096,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T11:55:50Z",
+      "name": "Group C",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-c",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-08T05:58:53Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-08T06:35:28Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273332,
+        "length": 1646,
+        "match_id": 1269918,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126061,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18096,
+    "rescheduled": false,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "T1 vs NS",
+    "id": 1269918,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "T1",
+      "dark_mode_image_url": null,
+      "id": 126061,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126061/t_oscq04.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:19Z",
+      "name": "T1",
+      "slug": "t1"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 126061
+      },
+      {
+        "score": 0,
+        "team_id": 128217
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": null,
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/@KeSPA/streams"
+      }
+    ],
+    "begin_at": "2025-12-08T05:58:50Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-08T07:34:27Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 126061,
+    "detailed_stats": true,
+    "end_at": "2025-12-08T06:35:28Z",
+    "slug": "t1-vs-nongshim-red-force-2025-12-08"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "JPN",
+          "dark_mode_image_url": null,
+          "id": 133695,
+          "image_url": "https://cdn.pandascore.co/images/team/image/133695/japan__2528_national_team_2529logo_square.png",
+          "location": "JP",
+          "modified_at": "2025-12-04T12:43:27Z",
+          "name": "Japan",
+          "slug": "japan-league-of-legends"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "T1",
+          "dark_mode_image_url": null,
+          "id": 126061,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126061/t_oscq04.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "T1",
+          "slug": "t1"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T12:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T13:45:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T12:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T11:30:00Z",
+      "has_bracket": false,
+      "id": 18096,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T11:55:50Z",
+      "name": "Group C",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-c",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T13:43:17Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T14:17:29Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273331,
+        "length": 1564,
+        "match_id": 1269917,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126061,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18096,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "JPN vs T1",
+    "id": 1269917,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "T1",
+      "dark_mode_image_url": null,
+      "id": 126061,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126061/t_oscq04.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:19Z",
+      "name": "T1",
+      "slug": "t1"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 133695
+      },
+      {
+        "score": 1,
+        "team_id": 126061
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://player.twitch.tv/?channel=kespalck123",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.twitch.tv/kespalck123"
+      }
+    ],
+    "begin_at": "2025-12-07T13:43:14Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T15:23:37Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 126061,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T14:17:28Z",
+    "slug": "japan-vs-t1-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "VIE",
+          "dark_mode_image_url": null,
+          "id": 131007,
+          "image_url": "https://cdn.pandascore.co/images/team/image/131007/vietnam_flag.png",
+          "location": "VN",
+          "modified_at": "2025-12-04T12:53:08Z",
+          "name": "Vietnam",
+          "slug": "vietnam-league-of-legends"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "HLE",
+          "dark_mode_image_url": null,
+          "id": 2883,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "Hanwha Life Esports",
+          "slug": "hanwha-life-esports"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T11:15:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T12:45:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T12:58:34Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T13:26:48Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273330,
+        "length": 1482,
+        "match_id": 1269916,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 2883,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "VIE vs HLE",
+    "id": 1269916,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "HLE",
+      "dark_mode_image_url": null,
+      "id": 2883,
+      "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:19Z",
+      "name": "Hanwha Life Esports",
+      "slug": "hanwha-life-esports"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 131007
+      },
+      {
+        "score": 1,
+        "team_id": 2883
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://player.twitch.tv/?channel=kespalck123",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.twitch.tv/kespalck123"
+      }
+    ],
+    "begin_at": "2025-12-07T12:57:44Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T14:00:20Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 2883,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T13:26:47Z",
+    "slug": "vietnam-vs-hanwha-life-esports-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "DNF",
+          "dark_mode_image_url": null,
+          "id": 136063,
+          "image_url": "https://cdn.pandascore.co/images/team/image/136063/390px_dn_freecs_full_allmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-08T18:32:59Z",
+          "name": "DN Freecs",
+          "slug": "dn-freecs"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "BRO",
+          "dark_mode_image_url": null,
+          "id": 128218,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128218/brio_nlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-04T12:35:16Z",
+          "name": "OKSavingsBank BRION",
+          "slug": "fredit-brion"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T10:30:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T12:00:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T11:59:53Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T12:57:17Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273329,
+        "length": 1870,
+        "match_id": 1269915,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 128218,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "DNF vs BRO",
+    "id": 1269915,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "BRO",
+      "dark_mode_image_url": null,
+      "id": 128218,
+      "image_url": "https://cdn.pandascore.co/images/team/image/128218/brio_nlogo_profile.png",
+      "location": "KR",
+      "modified_at": "2025-12-04T12:35:16Z",
+      "name": "OKSavingsBank BRION",
+      "slug": "fredit-brion"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 136063
+      },
+      {
+        "score": 1,
+        "team_id": 128218
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": null,
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/@KeSPA/streams"
+      }
+    ],
+    "begin_at": "2025-12-07T11:59:46Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T13:13:34Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 128218,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T12:57:17Z",
+    "slug": "dn-freecs-vs-oksavingsbank-brion-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "DRX",
+          "dark_mode_image_url": null,
+          "id": 126370,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126370/220px_dr_xlogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-06T07:54:10Z",
+          "name": "DRX",
+          "slug": "dragonx"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "DK",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+          "id": 132531,
+          "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:18Z",
+          "name": "Dplus KIA",
+          "slug": "dplus-kia"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T09:45:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T11:00:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T11:05:53Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T11:43:14Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273328,
+        "length": 1723,
+        "match_id": 1269914,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 132531,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "DRX vs DK",
+    "id": 1269914,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "DK",
+      "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+      "id": 132531,
+      "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:18Z",
+      "name": "Dplus KIA",
+      "slug": "dplus-kia"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 126370
+      },
+      {
+        "score": 1,
+        "team_id": 132531
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/9AwJAcY3mjg",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=9AwJAcY3mjg"
+      }
+    ],
+    "begin_at": "2025-12-07T11:05:48Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T12:15:58Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 132531,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T11:43:13Z",
+    "slug": "drx-vs-dplus-kia-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "BRO",
+          "dark_mode_image_url": null,
+          "id": 128218,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128218/brio_nlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-04T12:35:16Z",
+          "name": "OKSavingsBank BRION",
+          "slug": "fredit-brion"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "KT",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/63/kt_rolster_2021_full_darkmode.png",
+          "id": 63,
+          "image_url": "https://cdn.pandascore.co/images/team/image/63/kt_rolsterlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-06T14:00:19Z",
+          "name": "KT Rolster",
+          "slug": "kt-rolster"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T09:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T09:40:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T09:39:08Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T10:51:04Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273327,
+        "length": 2735,
+        "match_id": 1269913,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 63,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "BRO vs KT",
+    "id": 1269913,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "KT",
+      "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/63/kt_rolster_2021_full_darkmode.png",
+      "id": 63,
+      "image_url": "https://cdn.pandascore.co/images/team/image/63/kt_rolsterlogo_profile.png",
+      "location": "KR",
+      "modified_at": "2025-12-06T14:00:19Z",
+      "name": "KT Rolster",
+      "slug": "kt-rolster"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 128218
+      },
+      {
+        "score": 1,
+        "team_id": 63
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/9AwJAcY3mjg",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=9AwJAcY3mjg"
+      }
+    ],
+    "begin_at": "2025-12-07T09:39:05Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T10:59:19Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 63,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T10:51:04Z",
+    "slug": "oksavingsbank-brion-vs-kt-rolster-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "VIE",
+          "dark_mode_image_url": null,
+          "id": 131007,
+          "image_url": "https://cdn.pandascore.co/images/team/image/131007/vietnam_flag.png",
+          "location": "VN",
+          "modified_at": "2025-12-04T12:53:08Z",
+          "name": "Vietnam",
+          "slug": "vietnam-league-of-legends"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "C9",
+          "dark_mode_image_url": null,
+          "id": 1097,
+          "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+          "location": "US",
+          "modified_at": "2025-12-09T10:42:53Z",
+          "name": "Cloud9",
+          "slug": "cloud9"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T08:15:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T08:40:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T08:43:54Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T09:23:27Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273326,
+        "length": 1910,
+        "match_id": 1269912,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 1097,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "VIE vs C9",
+    "id": 1269912,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "C9",
+      "dark_mode_image_url": null,
+      "id": 1097,
+      "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+      "location": "US",
+      "modified_at": "2025-12-09T10:42:53Z",
+      "name": "Cloud9",
+      "slug": "cloud9"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 131007
+      },
+      {
+        "score": 1,
+        "team_id": 1097
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/9AwJAcY3mjg",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=9AwJAcY3mjg"
+      }
+    ],
+    "begin_at": "2025-12-07T08:43:51Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T09:55:45Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 1097,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T09:23:26Z",
+    "slug": "vietnam-vs-cloud9-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "DK",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+          "id": 132531,
+          "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:18Z",
+          "name": "Dplus KIA",
+          "slug": "dplus-kia"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "BRO",
+          "dark_mode_image_url": null,
+          "id": 128218,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128218/brio_nlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-04T12:35:16Z",
+          "name": "OKSavingsBank BRION",
+          "slug": "fredit-brion"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T07:30:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T07:45:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T07:45:52Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T08:28:32Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273325,
+        "length": 1891,
+        "match_id": 1269911,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 132531,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "DK vs BRO",
+    "id": 1269911,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "DK",
+      "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+      "id": 132531,
+      "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:18Z",
+      "name": "Dplus KIA",
+      "slug": "dplus-kia"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 132531
+      },
+      {
+        "score": 0,
+        "team_id": 128218
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/9AwJAcY3mjg",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=9AwJAcY3mjg"
+      }
+    ],
+    "begin_at": "2025-12-07T07:45:48Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T09:10:11Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 132531,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T08:28:32Z",
+    "slug": "dplus-kia-vs-oksavingsbank-brion-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "KT",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/63/kt_rolster_2021_full_darkmode.png",
+          "id": 63,
+          "image_url": "https://cdn.pandascore.co/images/team/image/63/kt_rolsterlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-06T14:00:19Z",
+          "name": "KT Rolster",
+          "slug": "kt-rolster"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "DRX",
+          "dark_mode_image_url": null,
+          "id": 126370,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126370/220px_dr_xlogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-06T07:54:10Z",
+          "name": "DRX",
+          "slug": "dragonx"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T06:45:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T06:45:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T06:50:19Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T07:31:11Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273324,
+        "length": 1568,
+        "match_id": 1269910,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126370,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": false,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "KT vs DRX",
+    "id": 1269910,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "DRX",
+      "dark_mode_image_url": null,
+      "id": 126370,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126370/220px_dr_xlogo_square.png",
+      "location": "KR",
+      "modified_at": "2025-12-06T07:54:10Z",
+      "name": "DRX",
+      "slug": "dragonx"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 63
+      },
+      {
+        "score": 1,
+        "team_id": 126370
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/9AwJAcY3mjg",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=9AwJAcY3mjg"
+      }
+    ],
+    "begin_at": "2025-12-07T06:50:14Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T08:24:10Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 126370,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T07:31:11Z",
+    "slug": "kt-rolster-vs-drx-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "FOX",
+          "dark_mode_image_url": null,
+          "id": 134115,
+          "image_url": "https://cdn.pandascore.co/images/team/image/134115/bnk_fear_xlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-04T12:53:09Z",
+          "name": "BNK FEARX",
+          "slug": "fearx"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "GEN",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/2882/499px_gen.g_esports_2019_full_darkmode.png",
+          "id": 2882,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2882/500px_gen.g_esports_2019_full_lightmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-07T09:47:27Z",
+          "name": "Gen.G",
+          "slug": "geng"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-07T06:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-07T06:00:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-07T06:02:09Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-07T06:35:56Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273323,
+        "length": 1677,
+        "match_id": 1269909,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 134115,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": false,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "FOX vs GEN",
+    "id": 1269909,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "FOX",
+      "dark_mode_image_url": null,
+      "id": 134115,
+      "image_url": "https://cdn.pandascore.co/images/team/image/134115/bnk_fear_xlogo_profile.png",
+      "location": "KR",
+      "modified_at": "2025-12-04T12:53:09Z",
+      "name": "BNK FEARX",
+      "slug": "fearx"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 134115
+      },
+      {
+        "score": 0,
+        "team_id": 2882
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": null,
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/@KeSPA/streams"
+      }
+    ],
+    "begin_at": "2025-12-07T06:02:03Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-07T09:48:18Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 134115,
+    "detailed_stats": true,
+    "end_at": "2025-12-07T06:35:56Z",
+    "slug": "bnk-fearx-vs-gen-g-2025-12-07"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "NS",
+          "dark_mode_image_url": null,
+          "id": 128217,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T13:06:04Z",
+          "name": "Nongshim Red Force",
+          "slug": "nongshim-red-force"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "TL",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/390/463px_team_liquid_2024_full_darkmode.png",
+          "id": 390,
+          "image_url": "https://cdn.pandascore.co/images/team/image/390/463px_team_liquid_2024_full_lightmode.png",
+          "location": "NL",
+          "modified_at": "2025-12-04T12:43:26Z",
+          "name": "Team Liquid",
+          "slug": "liquid"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T12:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T13:10:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T12:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T11:30:00Z",
+      "has_bracket": false,
+      "id": 18096,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T11:55:50Z",
+      "name": "Group C",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-c",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T13:03:03Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T14:02:13Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273322,
+        "length": 3049,
+        "match_id": 1269908,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 128217,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18096,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "NS vs TL",
+    "id": 1269908,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "NS",
+      "dark_mode_image_url": null,
+      "id": 128217,
+      "image_url": "https://cdn.pandascore.co/images/team/image/128217/nongshim_red_forcelogo_square.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T13:06:04Z",
+      "name": "Nongshim Red Force",
+      "slug": "nongshim-red-force"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 128217
+      },
+      {
+        "score": 0,
+        "team_id": 390
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/hAO3Mw-2KXo",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=hAO3Mw-2KXo"
+      }
+    ],
+    "begin_at": "2025-12-06T13:03:01Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T14:51:28Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 128217,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T14:02:13Z",
+    "slug": "nongshim-red-force-vs-team-liquid-2025-12-06"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "KT",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/63/kt_rolster_2021_full_darkmode.png",
+          "id": 63,
+          "image_url": "https://cdn.pandascore.co/images/team/image/63/kt_rolsterlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-06T14:00:19Z",
+          "name": "KT Rolster",
+          "slug": "kt-rolster"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "DNF",
+          "dark_mode_image_url": null,
+          "id": 136063,
+          "image_url": "https://cdn.pandascore.co/images/team/image/136063/390px_dn_freecs_full_allmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-08T18:32:59Z",
+          "name": "DN Freecs",
+          "slug": "dn-freecs"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T11:15:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T12:05:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T12:11:01Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T12:51:28Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273321,
+        "length": 1621,
+        "match_id": 1269907,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 136063,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "KT vs DNF",
+    "id": 1269907,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "DNF",
+      "dark_mode_image_url": null,
+      "id": 136063,
+      "image_url": "https://cdn.pandascore.co/images/team/image/136063/390px_dn_freecs_full_allmode.png",
+      "location": "KR",
+      "modified_at": "2025-12-08T18:32:59Z",
+      "name": "DN Freecs",
+      "slug": "dn-freecs"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 63
+      },
+      {
+        "score": 1,
+        "team_id": 136063
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/hAO3Mw-2KXo",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=hAO3Mw-2KXo"
+      }
+    ],
+    "begin_at": "2025-12-06T12:10:59Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T14:00:49Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 136063,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T12:51:27Z",
+    "slug": "kt-rolster-vs-dn-freecs-2025-12-06"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "HLE",
+          "dark_mode_image_url": null,
+          "id": 2883,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "Hanwha Life Esports",
+          "slug": "hanwha-life-esports"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "FOX",
+          "dark_mode_image_url": null,
+          "id": 134115,
+          "image_url": "https://cdn.pandascore.co/images/team/image/134115/bnk_fear_xlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-04T12:53:09Z",
+          "name": "BNK FEARX",
+          "slug": "fearx"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T10:30:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T11:20:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T11:16:28Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T11:56:33Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273320,
+        "length": 1804,
+        "match_id": 1269906,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 2883,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "HLE vs FOX",
+    "id": 1269906,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "HLE",
+      "dark_mode_image_url": null,
+      "id": 2883,
+      "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:19Z",
+      "name": "Hanwha Life Esports",
+      "slug": "hanwha-life-esports"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 2883
+      },
+      {
+        "score": 0,
+        "team_id": 134115
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/xFLzwdtv8Os",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=xFLzwdtv8Os"
+      }
+    ],
+    "begin_at": "2025-12-06T11:16:24Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T12:18:52Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 2883,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T11:56:33Z",
+    "slug": "hanwha-life-esports-vs-bnk-fearx-2025-12-06"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "DNF",
+          "dark_mode_image_url": null,
+          "id": 136063,
+          "image_url": "https://cdn.pandascore.co/images/team/image/136063/390px_dn_freecs_full_allmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-08T18:32:59Z",
+          "name": "DN Freecs",
+          "slug": "dn-freecs"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "DK",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+          "id": 132531,
+          "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:18Z",
+          "name": "Dplus KIA",
+          "slug": "dplus-kia"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T09:45:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T10:35:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T10:27:03Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T11:03:01Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273319,
+        "length": 1586,
+        "match_id": 1269905,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 132531,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "DNF vs DK",
+    "id": 1269905,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "DK",
+      "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/132531/800px_dplus_full_darkmode.png",
+      "id": 132531,
+      "image_url": "https://cdn.pandascore.co/images/team/image/132531/dplus_ki_alogo_profile.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:18Z",
+      "name": "Dplus KIA",
+      "slug": "dplus-kia"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 136063
+      },
+      {
+        "score": 1,
+        "team_id": 132531
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/geNNpToZsZ4",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=geNNpToZsZ4"
+      }
+    ],
+    "begin_at": "2025-12-06T10:27:00Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T12:28:52Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 132531,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T11:03:01Z",
+    "slug": "dn-freecs-vs-dplus-kia-2025-12-06"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "FOX",
+          "dark_mode_image_url": null,
+          "id": 134115,
+          "image_url": "https://cdn.pandascore.co/images/team/image/134115/bnk_fear_xlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-04T12:53:09Z",
+          "name": "BNK FEARX",
+          "slug": "fearx"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "VIE",
+          "dark_mode_image_url": null,
+          "id": 131007,
+          "image_url": "https://cdn.pandascore.co/images/team/image/131007/vietnam_flag.png",
+          "location": "VN",
+          "modified_at": "2025-12-04T12:53:08Z",
+          "name": "Vietnam",
+          "slug": "vietnam-league-of-legends"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T09:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T09:35:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T09:36:26Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T10:11:25Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273318,
+        "length": 1576,
+        "match_id": 1269904,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 134115,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "FOX vs VIE",
+    "id": 1269904,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "FOX",
+      "dark_mode_image_url": null,
+      "id": 134115,
+      "image_url": "https://cdn.pandascore.co/images/team/image/134115/bnk_fear_xlogo_profile.png",
+      "location": "KR",
+      "modified_at": "2025-12-04T12:53:09Z",
+      "name": "BNK FEARX",
+      "slug": "fearx"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 134115
+      },
+      {
+        "score": 0,
+        "team_id": 131007
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/geNNpToZsZ4",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=geNNpToZsZ4"
+      }
+    ],
+    "begin_at": "2025-12-06T09:36:24Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T10:32:07Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 134115,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T10:11:24Z",
+    "slug": "bnk-fearx-vs-vietnam-2025-12-06"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "HLE",
+          "dark_mode_image_url": null,
+          "id": 2883,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+          "location": "KR",
+          "modified_at": "2025-12-09T07:06:19Z",
+          "name": "Hanwha Life Esports",
+          "slug": "hanwha-life-esports"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "C9",
+          "dark_mode_image_url": null,
+          "id": 1097,
+          "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+          "location": "US",
+          "modified_at": "2025-12-09T10:42:53Z",
+          "name": "Cloud9",
+          "slug": "cloud9"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T08:15:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T08:40:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T08:41:39Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T09:20:40Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273317,
+        "length": 1836,
+        "match_id": 1269903,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 2883,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "HLE vs C9",
+    "id": 1269903,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "HLE",
+      "dark_mode_image_url": null,
+      "id": 2883,
+      "image_url": "https://cdn.pandascore.co/images/team/image/2883/hanwha-life-esports-1s04vbu0.png",
+      "location": "KR",
+      "modified_at": "2025-12-09T07:06:19Z",
+      "name": "Hanwha Life Esports",
+      "slug": "hanwha-life-esports"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 2883
+      },
+      {
+        "score": 0,
+        "team_id": 1097
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/geNNpToZsZ4",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=geNNpToZsZ4"
+      }
+    ],
+    "begin_at": "2025-12-06T08:41:32Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T09:50:17Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 2883,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T09:20:40Z",
+    "slug": "hanwha-life-esports-vs-cloud9-2025-12-06"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "GEN",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/2882/499px_gen.g_esports_2019_full_darkmode.png",
+          "id": 2882,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2882/500px_gen.g_esports_2019_full_lightmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-07T09:47:27Z",
+          "name": "Gen.G",
+          "slug": "geng"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "VIE",
+          "dark_mode_image_url": null,
+          "id": 131007,
+          "image_url": "https://cdn.pandascore.co/images/team/image/131007/vietnam_flag.png",
+          "location": "VN",
+          "modified_at": "2025-12-04T12:53:08Z",
+          "name": "Vietnam",
+          "slug": "vietnam-league-of-legends"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T07:30:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T07:45:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T07:50:21Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T08:25:49Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273316,
+        "length": 1679,
+        "match_id": 1269902,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 131007,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "GEN vs VIE",
+    "id": 1269902,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "VIE",
+      "dark_mode_image_url": null,
+      "id": 131007,
+      "image_url": "https://cdn.pandascore.co/images/team/image/131007/vietnam_flag.png",
+      "location": "VN",
+      "modified_at": "2025-12-04T12:53:08Z",
+      "name": "Vietnam",
+      "slug": "vietnam-league-of-legends"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 2882
+      },
+      {
+        "score": 1,
+        "team_id": 131007
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/geNNpToZsZ4",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=geNNpToZsZ4"
+      }
+    ],
+    "begin_at": "2025-12-06T07:50:19Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T08:54:20Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 131007,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T08:25:49Z",
+    "slug": "gen-g-vs-vietnam-2025-12-06"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "BRO",
+          "dark_mode_image_url": null,
+          "id": 128218,
+          "image_url": "https://cdn.pandascore.co/images/team/image/128218/brio_nlogo_profile.png",
+          "location": "KR",
+          "modified_at": "2025-12-04T12:35:16Z",
+          "name": "OKSavingsBank BRION",
+          "slug": "fredit-brion"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "DRX",
+          "dark_mode_image_url": null,
+          "id": 126370,
+          "image_url": "https://cdn.pandascore.co/images/team/image/126370/220px_dr_xlogo_square.png",
+          "location": "KR",
+          "modified_at": "2025-12-06T07:54:10Z",
+          "name": "DRX",
+          "slug": "dragonx"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T06:45:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T06:45:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:45:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T12:15:00Z",
+      "has_bracket": false,
+      "id": 18095,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T13:09:35Z",
+      "name": "Group B",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-b",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T06:54:08Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T07:33:47Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273315,
+        "length": 1817,
+        "match_id": 1269901,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 126370,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18095,
+    "rescheduled": false,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "BRO vs DRX",
+    "id": 1269901,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "DRX",
+      "dark_mode_image_url": null,
+      "id": 126370,
+      "image_url": "https://cdn.pandascore.co/images/team/image/126370/220px_dr_xlogo_square.png",
+      "location": "KR",
+      "modified_at": "2025-12-06T07:54:10Z",
+      "name": "DRX",
+      "slug": "dragonx"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 0,
+        "team_id": 128218
+      },
+      {
+        "score": 1,
+        "team_id": 126370
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/geNNpToZsZ4",
+        "language": "vi",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.youtube.com/watch?v=geNNpToZsZ4"
+      }
+    ],
+    "begin_at": "2025-12-06T06:54:02Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T07:57:42Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 126370,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T07:33:47Z",
+    "slug": "oksavingsbank-brion-vs-drx-2025-12-06"
+  },
+  {
+    "live": {
+      "opens_at": null,
+      "supported": false,
+      "url": null
+    },
+    "draw": false,
+    "serie_id": 9898,
+    "opponents": [
+      {
+        "opponent": {
+          "acronym": "C9",
+          "dark_mode_image_url": null,
+          "id": 1097,
+          "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+          "location": "US",
+          "modified_at": "2025-12-09T10:42:53Z",
+          "name": "Cloud9",
+          "slug": "cloud9"
+        },
+        "type": "Team"
+      },
+      {
+        "opponent": {
+          "acronym": "GEN",
+          "dark_mode_image_url": "https://cdn.pandascore.co/dark_images/team/dark_image/2882/499px_gen.g_esports_2019_full_darkmode.png",
+          "id": 2882,
+          "image_url": "https://cdn.pandascore.co/images/team/image/2882/500px_gen.g_esports_2019_full_lightmode.png",
+          "location": "KR",
+          "modified_at": "2025-12-07T09:47:27Z",
+          "name": "Gen.G",
+          "slug": "geng"
+        },
+        "type": "Team"
+      }
+    ],
+    "original_scheduled_at": "2025-12-06T06:00:00Z",
+    "game_advantage": null,
+    "scheduled_at": "2025-12-06T06:10:00Z",
+    "tournament": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "country": "KR",
+      "detailed_stats": true,
+      "end_at": "2025-12-08T09:15:00Z",
+      "has_bracket": false,
+      "id": 18094,
+      "league_id": 2711,
+      "live_supported": false,
+      "modified_at": "2025-12-08T09:32:25Z",
+      "name": "Group A",
+      "prizepool": null,
+      "region": "ASIA",
+      "serie_id": 9898,
+      "slug": "league-of-legends-kespa-cup-2025-group-a",
+      "tier": "c",
+      "type": "online/offline",
+      "winner_id": null,
+      "winner_type": "Team"
+    },
+    "games": [
+      {
+        "begin_at": "2025-12-06T06:15:05Z",
+        "complete": true,
+        "detailed_stats": true,
+        "end_at": "2025-12-06T06:37:00Z",
+        "finished": true,
+        "forfeit": false,
+        "id": 273314,
+        "length": 1601,
+        "match_id": 1269900,
+        "position": 1,
+        "status": "finished",
+        "winner": {
+          "id": 1097,
+          "type": "Team"
+        },
+        "winner_type": "Team"
+      }
+    ],
+    "tournament_id": 18094,
+    "rescheduled": true,
+    "league_id": 2711,
+    "status": "finished",
+    "forfeit": false,
+    "name": "C9 vs GEN",
+    "id": 1269900,
+    "match_type": "best_of",
+    "videogame_version": {
+      "current": false,
+      "name": "15.23.1"
+    },
+    "winner": {
+      "acronym": "C9",
+      "dark_mode_image_url": null,
+      "id": 1097,
+      "image_url": "https://cdn.pandascore.co/images/team/image/1097/cloud9-gnd9b0gn.png",
+      "location": "US",
+      "modified_at": "2025-12-09T10:42:53Z",
+      "name": "Cloud9",
+      "slug": "cloud9"
+    },
+    "number_of_games": 1,
+    "videogame_title": null,
+    "results": [
+      {
+        "score": 1,
+        "team_id": 1097
+      },
+      {
+        "score": 0,
+        "team_id": 2882
+      }
+    ],
+    "streams_list": [
+      {
+        "embed_url": "https://www.youtube.com/embed/3DCGMi4cMYw",
+        "language": "vi",
+        "main": false,
+        "official": false,
+        "raw_url": "https://www.youtube.com/watch?v=3DCGMi4cMYw"
+      },
+      {
+        "embed_url": "https://player.twitch.tv/?channel=kespalck",
+        "language": "ko",
+        "main": true,
+        "official": true,
+        "raw_url": "https://www.twitch.tv/kespalck"
+      }
+    ],
+    "begin_at": "2025-12-06T06:14:59Z",
+    "serie": {
+      "begin_at": "2025-12-06T06:00:00Z",
+      "end_at": "2025-12-14T18:00:00Z",
+      "full_name": "2025",
+      "id": 9898,
+      "league_id": 2711,
+      "modified_at": "2025-11-22T08:33:26Z",
+      "name": "",
+      "season": null,
+      "slug": "league-of-legends-kespa-cup-2025",
+      "winner_id": null,
+      "winner_type": "Team",
+      "year": 2025
+    },
+    "league": {
+      "id": 2711,
+      "image_url": "https://cdn.pandascore.co/images/league/image/2711/220px-2019_KeSPA_Cup.png",
+      "modified_at": "2020-02-18T12:15:13Z",
+      "name": "KeSPA Cup",
+      "slug": "league-of-legends-kespa-cup",
+      "url": null
+    },
+    "winner_type": "Team",
+    "modified_at": "2025-12-06T06:58:53Z",
+    "videogame": {
+      "id": 1,
+      "name": "LoL",
+      "slug": "league-of-legends"
+    },
+    "winner_id": 1097,
+    "detailed_stats": true,
+    "end_at": "2025-12-06T06:37:00Z",
+    "slug": "cloud9-vs-gen-g-2025-12-06"
+  }
+]

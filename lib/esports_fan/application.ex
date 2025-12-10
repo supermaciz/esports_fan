@@ -9,6 +9,10 @@ defmodule EsportsFan.Application do
   def start(_type, _args) do
     children = [
       EsportsFanWeb.Telemetry,
+      {ConCache,
+       name: :pandascore_api,
+       ttl_check_interval: :timer.minutes(1),
+       global_ttl: :timer.minutes(30)},
       EsportsFan.Repo,
       {DNSCluster, query: Application.get_env(:esports_fan, :dns_cluster_query) || :ignore},
       {Oban, Application.fetch_env!(:esports_fan, Oban)},
