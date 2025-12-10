@@ -24,15 +24,27 @@ defmodule EsportsFan.SubscriptionsTest do
       scope = user_scope_fixture()
       user_subscription = user_subscription_fixture(scope)
       other_scope = user_scope_fixture()
-      assert Subscriptions.get_user_subscription!(scope, user_subscription.id) == user_subscription
-      assert_raise Ecto.NoResultsError, fn -> Subscriptions.get_user_subscription!(other_scope, user_subscription.id) end
+
+      assert Subscriptions.get_user_subscription!(scope, user_subscription.id) ==
+               user_subscription
+
+      assert_raise Ecto.NoResultsError, fn ->
+        Subscriptions.get_user_subscription!(other_scope, user_subscription.id)
+      end
     end
 
     test "create_user_subscription/2 with valid data creates a user_subscription" do
-      valid_attrs = %{target_type: :player, target_id_or_slug: "some target_id_or_slug", frequency_days: 42}
+      valid_attrs = %{
+        target_type: :player,
+        target_id_or_slug: "some target_id_or_slug",
+        frequency_days: 42
+      }
+
       scope = user_scope_fixture()
 
-      assert {:ok, %UserSubscription{} = user_subscription} = Subscriptions.create_user_subscription(scope, valid_attrs)
+      assert {:ok, %UserSubscription{} = user_subscription} =
+               Subscriptions.create_user_subscription(scope, valid_attrs)
+
       assert user_subscription.target_type == :player
       assert user_subscription.target_id_or_slug == "some target_id_or_slug"
       assert user_subscription.frequency_days == 42
@@ -41,15 +53,24 @@ defmodule EsportsFan.SubscriptionsTest do
 
     test "create_user_subscription/2 with invalid data returns error changeset" do
       scope = user_scope_fixture()
-      assert {:error, %Ecto.Changeset{}} = Subscriptions.create_user_subscription(scope, @invalid_attrs)
+
+      assert {:error, %Ecto.Changeset{}} =
+               Subscriptions.create_user_subscription(scope, @invalid_attrs)
     end
 
     test "update_user_subscription/3 with valid data updates the user_subscription" do
       scope = user_scope_fixture()
       user_subscription = user_subscription_fixture(scope)
-      update_attrs = %{target_type: :team, target_id_or_slug: "some updated target_id_or_slug", frequency_days: 43}
 
-      assert {:ok, %UserSubscription{} = user_subscription} = Subscriptions.update_user_subscription(scope, user_subscription, update_attrs)
+      update_attrs = %{
+        target_type: :team,
+        target_id_or_slug: "some updated target_id_or_slug",
+        frequency_days: 43
+      }
+
+      assert {:ok, %UserSubscription{} = user_subscription} =
+               Subscriptions.update_user_subscription(scope, user_subscription, update_attrs)
+
       assert user_subscription.target_type == :team
       assert user_subscription.target_id_or_slug == "some updated target_id_or_slug"
       assert user_subscription.frequency_days == 43
@@ -68,22 +89,34 @@ defmodule EsportsFan.SubscriptionsTest do
     test "update_user_subscription/3 with invalid data returns error changeset" do
       scope = user_scope_fixture()
       user_subscription = user_subscription_fixture(scope)
-      assert {:error, %Ecto.Changeset{}} = Subscriptions.update_user_subscription(scope, user_subscription, @invalid_attrs)
-      assert user_subscription == Subscriptions.get_user_subscription!(scope, user_subscription.id)
+
+      assert {:error, %Ecto.Changeset{}} =
+               Subscriptions.update_user_subscription(scope, user_subscription, @invalid_attrs)
+
+      assert user_subscription ==
+               Subscriptions.get_user_subscription!(scope, user_subscription.id)
     end
 
     test "delete_user_subscription/2 deletes the user_subscription" do
       scope = user_scope_fixture()
       user_subscription = user_subscription_fixture(scope)
-      assert {:ok, %UserSubscription{}} = Subscriptions.delete_user_subscription(scope, user_subscription)
-      assert_raise Ecto.NoResultsError, fn -> Subscriptions.get_user_subscription!(scope, user_subscription.id) end
+
+      assert {:ok, %UserSubscription{}} =
+               Subscriptions.delete_user_subscription(scope, user_subscription)
+
+      assert_raise Ecto.NoResultsError, fn ->
+        Subscriptions.get_user_subscription!(scope, user_subscription.id)
+      end
     end
 
     test "delete_user_subscription/2 with invalid scope raises" do
       scope = user_scope_fixture()
       other_scope = user_scope_fixture()
       user_subscription = user_subscription_fixture(scope)
-      assert_raise MatchError, fn -> Subscriptions.delete_user_subscription(other_scope, user_subscription) end
+
+      assert_raise MatchError, fn ->
+        Subscriptions.delete_user_subscription(other_scope, user_subscription)
+      end
     end
 
     test "change_user_subscription/2 returns a user_subscription changeset" do

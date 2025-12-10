@@ -1,7 +1,8 @@
 defmodule EsportsFan.Subscriptions.Email do
   import Swoosh.Email
+  alias EsportsFan.Subscriptions
 
-  def newsletter(email, subscriptions) do
+  def newsletter(email, _subscriptions) do
     new()
     |> to(email)
     |> from({"EsportsFan Newsletter", "newsletter@esportsfan.gg"})
@@ -9,4 +10,8 @@ defmodule EsportsFan.Subscriptions.Email do
     |> html_body("TODO: implement newsletter HTML body")
     |> text_body("TODO: implement newsletter text body")
   end
+
+  # defp build_section(%Subscriptions.UserSubscription{} = _sub) do
+
+  # end
 end

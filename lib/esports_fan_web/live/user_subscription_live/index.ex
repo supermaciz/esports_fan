@@ -19,11 +19,19 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Index do
       <.table
         id="user_subscriptions"
         rows={@streams.user_subscriptions}
-        row_click={fn {_id, user_subscription} -> JS.navigate(~p"/user_subscriptions/#{user_subscription}") end}
+        row_click={
+          fn {_id, user_subscription} -> JS.navigate(~p"/user_subscriptions/#{user_subscription}") end
+        }
       >
-        <:col :let={{_id, user_subscription}} label="Target type">{user_subscription.target_type}</:col>
-        <:col :let={{_id, user_subscription}} label="Target id or slug">{user_subscription.target_id_or_slug}</:col>
-        <:col :let={{_id, user_subscription}} label="Frequency days">{user_subscription.frequency_days}</:col>
+        <:col :let={{_id, user_subscription}} label="Target type">
+          {user_subscription.target_type}
+        </:col>
+        <:col :let={{_id, user_subscription}} label="Target id or slug">
+          {user_subscription.target_id_or_slug}
+        </:col>
+        <:col :let={{_id, user_subscription}} label="Frequency days">
+          {user_subscription.frequency_days}
+        </:col>
         <:action :let={{_id, user_subscription}}>
           <div class="sr-only">
             <.link navigate={~p"/user_subscriptions/#{user_subscription}"}>Show</.link>
@@ -58,7 +66,9 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Index do
   @impl true
   def handle_event("delete", %{"id" => id}, socket) do
     user_subscription = Subscriptions.get_user_subscription!(socket.assigns.current_scope, id)
-    {:ok, _} = Subscriptions.delete_user_subscription(socket.assigns.current_scope, user_subscription)
+
+    {:ok, _} =
+      Subscriptions.delete_user_subscription(socket.assigns.current_scope, user_subscription)
 
     {:noreply, stream_delete(socket, :user_subscriptions, user_subscription)}
   end
@@ -66,7 +76,10 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Index do
   @impl true
   def handle_info({type, %EsportsFan.Subscriptions.UserSubscription{}}, socket)
       when type in [:created, :updated, :deleted] do
-    {:noreply, stream(socket, :user_subscriptions, list_user_subscriptions(socket.assigns.current_scope), reset: true)}
+    {:noreply,
+     stream(socket, :user_subscriptions, list_user_subscriptions(socket.assigns.current_scope),
+       reset: true
+     )}
   end
 
   defp list_user_subscriptions(current_scope) do

@@ -53,14 +53,14 @@ defmodule EsportsFan.PandascoreAPI do
     future_date = DateTime.add(now, n_days, :day)
 
     full_req_opts =
-      (req_opts ++
-         [
-           params: [
-             "range[begin_at]":
-               "#{DateTime.to_iso8601(past_date)},#{DateTime.to_iso8601(future_date)}",
-             "filter[opponents_filled]": true
-           ]
-         ])
+      req_opts ++
+        [
+          params: [
+            "range[begin_at]":
+              "#{DateTime.to_iso8601(past_date)},#{DateTime.to_iso8601(future_date)}",
+            "filter[opponents_filled]": true
+          ]
+        ]
 
     try do
       matches = get_all!("/#{videogame_prefix}/matches", full_req_opts)

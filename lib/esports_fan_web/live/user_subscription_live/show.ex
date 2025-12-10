@@ -14,7 +14,10 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Show do
           <.button navigate={~p"/user_subscriptions"}>
             <.icon name="hero-arrow-left" />
           </.button>
-          <.button variant="primary" navigate={~p"/user_subscriptions/#{@user_subscription}/edit?return_to=show"}>
+          <.button
+            variant="primary"
+            navigate={~p"/user_subscriptions/#{@user_subscription}/edit?return_to=show"}
+          >
             <.icon name="hero-pencil-square" /> Edit user_subscription
           </.button>
         </:actions>
@@ -38,7 +41,10 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Show do
     {:ok,
      socket
      |> assign(:page_title, "Show User subscription")
-     |> assign(:user_subscription, Subscriptions.get_user_subscription!(socket.assigns.current_scope, id))}
+     |> assign(
+       :user_subscription,
+       Subscriptions.get_user_subscription!(socket.assigns.current_scope, id)
+     )}
   end
 
   @impl true

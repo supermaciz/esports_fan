@@ -25,7 +25,9 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
         <.input field={@form[:frequency_days]} type="number" label="Frequency days" />
         <footer>
           <.button phx-disable-with="Saving..." variant="primary">Save User subscription</.button>
-          <.button navigate={return_path(@current_scope, @return_to, @user_subscription)}>Cancel</.button>
+          <.button navigate={return_path(@current_scope, @return_to, @user_subscription)}>
+            Cancel
+          </.button>
         </footer>
       </.form>
     </Layouts.app>
@@ -49,7 +51,12 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
     socket
     |> assign(:page_title, "Edit User subscription")
     |> assign(:user_subscription, user_subscription)
-    |> assign(:form, to_form(Subscriptions.change_user_subscription(socket.assigns.current_scope, user_subscription)))
+    |> assign(
+      :form,
+      to_form(
+        Subscriptions.change_user_subscription(socket.assigns.current_scope, user_subscription)
+      )
+    )
   end
 
   defp apply_action(socket, :new, _params) do
@@ -58,12 +65,23 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
     socket
     |> assign(:page_title, "New User subscription")
     |> assign(:user_subscription, user_subscription)
-    |> assign(:form, to_form(Subscriptions.change_user_subscription(socket.assigns.current_scope, user_subscription)))
+    |> assign(
+      :form,
+      to_form(
+        Subscriptions.change_user_subscription(socket.assigns.current_scope, user_subscription)
+      )
+    )
   end
 
   @impl true
   def handle_event("validate", %{"user_subscription" => user_subscription_params}, socket) do
-    changeset = Subscriptions.change_user_subscription(socket.assigns.current_scope, socket.assigns.user_subscription, user_subscription_params)
+    changeset =
+      Subscriptions.change_user_subscription(
+        socket.assigns.current_scope,
+        socket.assigns.user_subscription,
+        user_subscription_params
+      )
+
     {:noreply, assign(socket, form: to_form(changeset, action: :validate))}
   end
 
@@ -72,13 +90,22 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
   end
 
   defp save_user_subscription(socket, :edit, user_subscription_params) do
-    case Subscriptions.update_user_subscription(socket.assigns.current_scope, socket.assigns.user_subscription, user_subscription_params) do
+    case Subscriptions.update_user_subscription(
+           socket.assigns.current_scope,
+           socket.assigns.user_subscription,
+           user_subscription_params
+         ) do
       {:ok, user_subscription} ->
         {:noreply,
          socket
          |> put_flash(:info, "User subscription updated successfully")
          |> push_navigate(
-           to: return_path(socket.assigns.current_scope, socket.assigns.return_to, user_subscription)
+           to:
+             return_path(
+               socket.assigns.current_scope,
+               socket.assigns.return_to,
+               user_subscription
+             )
          )}
 
       {:error, %Ecto.Changeset{} = changeset} ->
@@ -87,13 +114,21 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
   end
 
   defp save_user_subscription(socket, :new, user_subscription_params) do
-    case Subscriptions.create_user_subscription(socket.assigns.current_scope, user_subscription_params) do
+    case Subscriptions.create_user_subscription(
+           socket.assigns.current_scope,
+           user_subscription_params
+         ) do
       {:ok, user_subscription} ->
         {:noreply,
          socket
          |> put_flash(:info, "User subscription created successfully")
          |> push_navigate(
-           to: return_path(socket.assigns.current_scope, socket.assigns.return_to, user_subscription)
+           to:
+             return_path(
+               socket.assigns.current_scope,
+               socket.assigns.return_to,
+               user_subscription
+             )
          )}
 
       {:error, %Ecto.Changeset{} = changeset} ->
@@ -102,5 +137,7 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
   end
 
   defp return_path(_scope, "index", _user_subscription), do: ~p"/user_subscriptions"
-  defp return_path(_scope, "show", user_subscription), do: ~p"/user_subscriptions/#{user_subscription}"
+
+  defp return_path(_scope, "show", user_subscription),
+    do: ~p"/user_subscriptions/#{user_subscription}"
 end

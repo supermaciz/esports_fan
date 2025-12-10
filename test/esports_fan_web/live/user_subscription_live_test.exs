@@ -4,8 +4,16 @@ defmodule EsportsFanWeb.UserSubscriptionLiveTest do
   import Phoenix.LiveViewTest
   import EsportsFan.SubscriptionsFixtures
 
-  @create_attrs %{target_type: :player, target_id_or_slug: "some target_id_or_slug", frequency_days: 42}
-  @update_attrs %{target_type: :team, target_id_or_slug: "some updated target_id_or_slug", frequency_days: 43}
+  @create_attrs %{
+    target_type: :player,
+    target_id_or_slug: "some target_id_or_slug",
+    frequency_days: 42
+  }
+  @update_attrs %{
+    target_type: :team,
+    target_id_or_slug: "some updated target_id_or_slug",
+    frequency_days: 43
+  }
   @invalid_attrs %{target_type: nil, target_id_or_slug: nil, frequency_days: nil}
 
   setup :register_and_log_in_user
@@ -52,7 +60,10 @@ defmodule EsportsFanWeb.UserSubscriptionLiveTest do
       assert html =~ "some target_id_or_slug"
     end
 
-    test "updates user_subscription in listing", %{conn: conn, user_subscription: user_subscription} do
+    test "updates user_subscription in listing", %{
+      conn: conn,
+      user_subscription: user_subscription
+    } do
       {:ok, index_live, _html} = live(conn, ~p"/user_subscriptions")
 
       assert {:ok, form_live, _html} =
@@ -78,10 +89,16 @@ defmodule EsportsFanWeb.UserSubscriptionLiveTest do
       assert html =~ "some updated target_id_or_slug"
     end
 
-    test "deletes user_subscription in listing", %{conn: conn, user_subscription: user_subscription} do
+    test "deletes user_subscription in listing", %{
+      conn: conn,
+      user_subscription: user_subscription
+    } do
       {:ok, index_live, _html} = live(conn, ~p"/user_subscriptions")
 
-      assert index_live |> element("#user_subscriptions-#{user_subscription.id} a", "Delete") |> render_click()
+      assert index_live
+             |> element("#user_subscriptions-#{user_subscription.id} a", "Delete")
+             |> render_click()
+
       refute has_element?(index_live, "#user_subscriptions-#{user_subscription.id}")
     end
   end
@@ -96,14 +113,20 @@ defmodule EsportsFanWeb.UserSubscriptionLiveTest do
       assert html =~ user_subscription.target_id_or_slug
     end
 
-    test "updates user_subscription and returns to show", %{conn: conn, user_subscription: user_subscription} do
+    test "updates user_subscription and returns to show", %{
+      conn: conn,
+      user_subscription: user_subscription
+    } do
       {:ok, show_live, _html} = live(conn, ~p"/user_subscriptions/#{user_subscription}")
 
       assert {:ok, form_live, _} =
                show_live
                |> element("a", "Edit")
                |> render_click()
-               |> follow_redirect(conn, ~p"/user_subscriptions/#{user_subscription}/edit?return_to=show")
+               |> follow_redirect(
+                 conn,
+                 ~p"/user_subscriptions/#{user_subscription}/edit?return_to=show"
+               )
 
       assert render(form_live) =~ "Edit User subscription"
 
