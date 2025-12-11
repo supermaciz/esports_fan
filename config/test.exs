@@ -24,7 +24,10 @@ config :esports_fan, EsportsFanWeb.Endpoint,
   secret_key_base: "Bw5IQa85Oarz+TZoOQgIxxc6Ikq6/i962YUf97lXP0m1oUI3U+XblYKoWYBH8+Le",
   server: false
 
-config :esports_fan, EsportsFan.PandascoreAPI, api_key: "not needed for tests"
+config :esports_fan, EsportsFan.PandascoreAPI,
+  req_options: [
+    plug: {Req.Test, DefaultPandascoreStub}
+  ]
 
 # In test we don't send emails
 config :esports_fan, EsportsFan.Mailer, adapter: Swoosh.Adapters.Test

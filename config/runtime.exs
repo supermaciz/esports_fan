@@ -25,12 +25,9 @@ config :esports_fan, EsportsFanWeb.Endpoint,
 
 if config_env() != :test do
   config :esports_fan, EsportsFan.PandascoreAPI,
-    api_key:
-      System.get_env("PANDASCORE_API_KEY") ||
-        raise("""
-        environment variable PANDASCORE_API_KEY is missing.
-        Please set it to your Pandascore API key.
-        """)
+    req_options: [
+      auth: {:bearer, System.fetch_env!("PANDASCORE_API_KEY")}
+    ]
 end
 
 if config_env() == :prod do

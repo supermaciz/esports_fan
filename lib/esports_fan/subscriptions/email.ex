@@ -1,4 +1,8 @@
 defmodule EsportsFan.Subscriptions.Email do
+  @moduledoc """
+  Module for building newsletter emails.
+  """
+
   import Swoosh.Email
   alias EsportsFan.Subscriptions
   alias EsportsFan.Subscriptions.UserSubscription
