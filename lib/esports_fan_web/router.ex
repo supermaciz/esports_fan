@@ -1,6 +1,7 @@
 defmodule EsportsFanWeb.Router do
   use EsportsFanWeb, :router
 
+  import Oban.Web.Router
   import EsportsFanWeb.UserAuth
 
   pipeline :browser do
@@ -41,8 +42,9 @@ defmodule EsportsFanWeb.Router do
     scope "/dev" do
       pipe_through :browser
 
-      live_dashboard "/dashboard", metrics: EsportsFanWeb.Telemetry
+      live_dashboard "/dashboard", metrics: EsportsFanWeb.Telemetry, repos: [EsportsFan.Repo]
       forward "/mailbox", Plug.Swoosh.MailboxPreview
+      oban_dashboard("/oban")
     end
   end
 

@@ -49,15 +49,25 @@ defmodule EsportsFan.Subscriptions.NewsletterWorkerTest do
 
   test "does not insert duplicate scheduled jobs", %{user: user} do
     # First job should be inserted
-    assert {:ok, job} = perform_job(NewsletterWorker, %{"user_id" => user.id})
+    assert {:ok, _} = perform_job(NewsletterWorker, %{"user_id" => user.id})
+
     assert_enqueued worker: NewsletterWorker, args: %{"user_id" => user.id}
-    job_id = job.id
+    assert [_] = all_enqueued(worker: NewsletterWorker)
+
+    assert_email_sent(fn
+      %{subject: "Your e-sports news", from: {_, "newsletter@esportsfan.gg"}} -> true
+      _ -> false
+    end)
 
     # Second job should not create a duplicate
     assert {:ok, %Oban.Job{conflict?: true}} =
-             perform_job(NewsletterWorker, %{"user_id" => user.id})
+             %{user_id: user.id}
+             |> NewsletterWorker.new()
+             |> Oban.insert()
 
-    assert [%{id: ^job_id}] = all_enqueued(worker: NewsletterWorker)
+    # still only one job
+    assert [_] = all_enqueued(worker: NewsletterWorker)
+    refute_email_sent()
   end
 
   defp receive_mail do

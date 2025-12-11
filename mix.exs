@@ -70,6 +70,8 @@ defmodule EsportsFan.MixProject do
       {:surface, "~> 0.12.1"},
       {:oban, "~> 2.19"},
       {:con_cache, "~> 1.1"},
+      {:oban_web, "~> 2.11"},
+      {:ecto_psql_extras, "~> 0.8"},
       {:igniter, "~> 0.5", only: [:dev]},
       {:tidewave, "~> 0.5", only: :dev}
     ]
