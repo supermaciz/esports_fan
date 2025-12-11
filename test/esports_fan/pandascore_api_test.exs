@@ -6,7 +6,7 @@ defmodule EsportsFan.PandascoreApiTest do
 
   describe "get_all!/2" do
     test "handles pagination correctly" do
-      Req.Test.stub(PaginationTest, fn
+      Req.Test.stub(DefaultPandascoreStub, fn
         %Conn{query_params: %{"page" => "1", "per_page" => "2"}} = conn ->
           send_json_array(conn, ["a", "b"], 1, 2, 5)
 
@@ -22,21 +22,15 @@ defmodule EsportsFan.PandascoreApiTest do
       end)
 
       assert ["a", "b", "c", "d", "e"] =
-               PandascoreAPI.get_all!("/fake_route",
-                 plug: {Req.Test, PaginationTest},
-                 params: [per_page: 2]
-               )
+               PandascoreAPI.get_all!("/fake_route", params: [per_page: 2])
 
       assert_raise ArgumentError, fn ->
-        PandascoreAPI.get_all!("/fake_route",
-          plug: {Req.Test, PaginationTest},
-          params: [per_page: 2, page: 2]
-        )
+        PandascoreAPI.get_all!("/fake_route", params: [per_page: 2, page: 2])
       end
     end
 
     test "raises on non-success responses" do
-      Req.Test.stub(ErrorTest, fn %Conn{} = conn ->
+      Req.Test.stub(DefaultPandascoreStub, fn %Conn{} = conn ->
         conn
         |> Conn.put_resp_header("content-type", "application/json")
         |> Conn.resp(500, ~s({"error": "BoomError", "message":"boom"}))
@@ -44,7 +38,7 @@ defmodule EsportsFan.PandascoreApiTest do
 
       error =
         assert_raise PandascoreAPI.Error, fn ->
-          PandascoreAPI.get_all!("/fake_route", plug: {Req.Test, ErrorTest})
+          PandascoreAPI.get_all!("/fake_route")
         end
 
       assert error.status == 500
@@ -55,7 +49,7 @@ defmodule EsportsFan.PandascoreApiTest do
 
   describe "get_lol_matches_for_n_days/1" do
     test "caches results" do
-      Req.Test.expect(CacheTest, 1, fn %Conn{} = conn ->
+      Req.Test.expect(DefaultPandascoreStub, 1, fn %Conn{} = conn ->
         lol_matches =
           "test/support/data/pandascore_api/lol_matches_7_days.json"
           |> File.read!()
@@ -65,17 +59,17 @@ defmodule EsportsFan.PandascoreApiTest do
       end)
 
       assert {:ok, [%{} | _]} =
-               PandascoreAPI.get_lol_matches_for_n_days(3, plug: {Req.Test, CacheTest})
+               PandascoreAPI.get_lol_matches_for_n_days(3)
 
       # Req.Test.expect expects only one call
       assert {:ok, [%{} | _]} =
-               PandascoreAPI.get_lol_matches_for_n_days(3, plug: {Req.Test, CacheTest})
+               PandascoreAPI.get_lol_matches_for_n_days(3)
     end
   end
 
   describe "get_cs_matches_for_n_days/1" do
     test "caches results" do
-      Req.Test.expect(CacheTest, 1, fn %Conn{} = conn ->
+      Req.Test.expect(DefaultPandascoreStub, 1, fn %Conn{} = conn ->
         cs_matches =
           "test/support/data/pandascore_api/cs_matches_7_days.json"
           |> File.read!()
@@ -85,11 +79,11 @@ defmodule EsportsFan.PandascoreApiTest do
       end)
 
       assert {:ok, [%{} | _]} =
-               PandascoreAPI.get_cs_matches_for_n_days(5, plug: {Req.Test, CacheTest})
+               PandascoreAPI.get_cs_matches_for_n_days(5)
 
       # Req.Test.expect expects only one call
       assert {:ok, [%{} | _]} =
-               PandascoreAPI.get_cs_matches_for_n_days(5, plug: {Req.Test, CacheTest})
+               PandascoreAPI.get_cs_matches_for_n_days(5)
     end
   end
 

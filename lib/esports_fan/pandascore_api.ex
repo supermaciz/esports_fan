@@ -25,11 +25,11 @@ defmodule EsportsFan.PandascoreAPI do
   Returns matches only from tournaments of relevant tiers.
   The results are cached.
   """
-  @spec get_lol_matches_for_n_days(non_neg_integer(), Keyword.t()) ::
+  @spec get_lol_matches_for_n_days(non_neg_integer()) ::
           {:ok, list()} | {:error, any()}
-  def get_lol_matches_for_n_days(n_days, req_opts \\ []) do
+  def get_lol_matches_for_n_days(n_days) do
     Cache.get("lol_matches_#{n_days}", fn ->
-      get_matches_for_n_days("lol", n_days, req_opts)
+      get_matches_for_n_days("lol", n_days)
     end)
   end
 
@@ -39,31 +39,30 @@ defmodule EsportsFan.PandascoreAPI do
   Returns matches only from tournaments of relevant tiers.
   The results are cached.
   """
-  @spec get_cs_matches_for_n_days(non_neg_integer(), Keyword.t()) ::
+  @spec get_cs_matches_for_n_days(non_neg_integer()) ::
           {:ok, list()} | {:error, any()}
-  def get_cs_matches_for_n_days(n_days, req_opts \\ []) do
+  def get_cs_matches_for_n_days(n_days) do
     Cache.get("csgo_matches_#{n_days}", fn ->
-      get_matches_for_n_days("csgo", n_days, req_opts)
+      get_matches_for_n_days("csgo", n_days)
     end)
   end
 
-  defp get_matches_for_n_days(videogame_prefix, n_days, req_opts) do
+  defp get_matches_for_n_days(videogame_prefix, n_days) do
     now = DateTime.utc_now()
     past_date = DateTime.add(now, -n_days, :day)
     future_date = DateTime.add(now, n_days, :day)
 
-    full_req_opts =
-      req_opts ++
-        [
-          params: [
-            "range[begin_at]":
-              "#{DateTime.to_iso8601(past_date)},#{DateTime.to_iso8601(future_date)}",
-            "filter[opponents_filled]": true
-          ]
+    req_opts =
+      [
+        params: [
+          "range[begin_at]":
+            "#{DateTime.to_iso8601(past_date)},#{DateTime.to_iso8601(future_date)}",
+          "filter[opponents_filled]": true
         ]
+      ]
 
     try do
-      matches = get_all!("/#{videogame_prefix}/matches", full_req_opts)
+      matches = get_all!("/#{videogame_prefix}/matches", req_opts)
 
       targeted_matches =
         Enum.filter(matches, fn m -> m["tournament"]["tier"] in @tournament_tiers end)
