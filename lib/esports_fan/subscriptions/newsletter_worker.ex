@@ -23,8 +23,8 @@ defmodule EsportsFan.Subscriptions.NewsletterWorker do
 
   @impl Oban.Worker
   def perform(%{args: %{"user_id" => user_id}, attempt: 1} = _job) do
-    Logger.metadata(user_id: user_id)
     user = EsportsFan.Accounts.get_user!(user_id)
+    Logger.metadata(user_id: user_id, user_email: user.email)
     Logger.debug("Performing newsletter job (first attempt)")
 
     case get_subs(user) do
@@ -41,8 +41,8 @@ defmodule EsportsFan.Subscriptions.NewsletterWorker do
   end
 
   def perform(%{args: %{"user_id" => user_id}}) do
-    Logger.metadata(user_id: user_id)
     user = EsportsFan.Accounts.get_user!(user_id)
+    Logger.metadata(user_id: user_id, user_email: user.email)
     Logger.notice("Performing newsletter retry job")
 
     case get_subs(user) do
@@ -56,7 +56,10 @@ defmodule EsportsFan.Subscriptions.NewsletterWorker do
   end
 
   defp send_newsletter(user, subs) do
-    Logger.info("Sending newsletter email")
+    Logger.info(
+      "Sending newsletter email for subscriptions: [#{Enum.map_join(subs, ", ", & &1.target_id_or_slug)}]"
+    )
+
     email = Subscriptions.Email.newsletter(user.email, subs)
     EsportsFan.Mailer.deliver(email)
   end
