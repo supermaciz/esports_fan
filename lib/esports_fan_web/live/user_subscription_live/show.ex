@@ -26,7 +26,6 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Show do
       <.list>
         <:item title="Target type">{@user_subscription.target_type}</:item>
         <:item title="Target id or slug">{@user_subscription.target_id_or_slug}</:item>
-        <:item title="Frequency days">{@user_subscription.frequency_days}</:item>
       </.list>
     </Layouts.app>
     """

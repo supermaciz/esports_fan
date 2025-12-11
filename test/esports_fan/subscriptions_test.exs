@@ -9,7 +9,7 @@ defmodule EsportsFan.SubscriptionsTest do
     import EsportsFan.AccountsFixtures, only: [user_scope_fixture: 0]
     import EsportsFan.SubscriptionsFixtures
 
-    @invalid_attrs %{target_type: nil, target_id_or_slug: nil, frequency_days: nil}
+    @invalid_attrs %{target_type: nil, target_id_or_slug: nil}
 
     test "list_user_subscriptions/1 returns all scoped user_subscriptions" do
       scope = user_scope_fixture()
@@ -36,8 +36,7 @@ defmodule EsportsFan.SubscriptionsTest do
     test "create_user_subscription/2 with valid data creates a user_subscription" do
       valid_attrs = %{
         target_type: :player,
-        target_id_or_slug: "some target_id_or_slug",
-        frequency_days: 42
+        target_id_or_slug: "some target_id_or_slug"
       }
 
       scope = user_scope_fixture()
@@ -47,7 +46,6 @@ defmodule EsportsFan.SubscriptionsTest do
 
       assert user_subscription.target_type == :player
       assert user_subscription.target_id_or_slug == "some target_id_or_slug"
-      assert user_subscription.frequency_days == 42
       assert user_subscription.user_id == scope.user.id
     end
 
@@ -64,8 +62,7 @@ defmodule EsportsFan.SubscriptionsTest do
 
       update_attrs = %{
         target_type: :team,
-        target_id_or_slug: "some updated target_id_or_slug",
-        frequency_days: 43
+        target_id_or_slug: "some updated target_id_or_slug"
       }
 
       assert {:ok, %UserSubscription{} = user_subscription} =
@@ -73,7 +70,6 @@ defmodule EsportsFan.SubscriptionsTest do
 
       assert user_subscription.target_type == :team
       assert user_subscription.target_id_or_slug == "some updated target_id_or_slug"
-      assert user_subscription.frequency_days == 43
     end
 
     test "update_user_subscription/3 with invalid scope raises" do

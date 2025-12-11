@@ -10,7 +10,6 @@ defmodule EsportsFan.SubscriptionsFixtures do
   def user_subscription_fixture(scope, attrs \\ %{}) do
     attrs =
       Enum.into(attrs, %{
-        frequency_days: 7,
         target_id_or_slug: "league-of-legends",
         target_type: :videogame
       })

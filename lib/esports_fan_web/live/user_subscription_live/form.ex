@@ -22,7 +22,6 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
           options={Ecto.Enum.values(EsportsFan.Subscriptions.UserSubscription, :target_type)}
         />
         <.input field={@form[:target_id_or_slug]} type="text" label="Target id or slug" />
-        <.input field={@form[:frequency_days]} type="number" label="Frequency days" />
         <footer>
           <.button phx-disable-with="Saving..." variant="primary">Save User subscription</.button>
           <.button navigate={return_path(@current_scope, @return_to, @user_subscription)}>

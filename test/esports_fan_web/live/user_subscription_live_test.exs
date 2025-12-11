@@ -6,15 +6,13 @@ defmodule EsportsFanWeb.UserSubscriptionLiveTest do
 
   @create_attrs %{
     target_type: :player,
-    target_id_or_slug: "some target_id_or_slug",
-    frequency_days: 42
+    target_id_or_slug: "some target_id_or_slug"
   }
   @update_attrs %{
     target_type: :team,
-    target_id_or_slug: "some updated target_id_or_slug",
-    frequency_days: 43
+    target_id_or_slug: "some updated target_id_or_slug"
   }
-  @invalid_attrs %{target_type: nil, target_id_or_slug: nil, frequency_days: nil}
+  @invalid_attrs %{target_type: nil, target_id_or_slug: nil}
 
   setup :register_and_log_in_user
 
