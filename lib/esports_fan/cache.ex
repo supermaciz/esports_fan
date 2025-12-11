@@ -3,7 +3,7 @@ defmodule EsportsFan.Cache do
   A simple caching layer for PandaScoreAPI.
   """
 
-  @spec get(String.t(), (-> {:ok, any} | {:error, any})) :: nil
+  @spec get(String.t(), (-> {:ok, any} | {:error, any})) :: {:ok, any} | {:error, any()}
   def get(key, fallback) do
     ConCache.fetch_or_store(:pandascore_api, key, fallback)
   end

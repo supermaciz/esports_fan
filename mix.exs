@@ -11,7 +11,8 @@ defmodule EsportsFan.MixProject do
       aliases: aliases(),
       deps: deps(),
       compilers: [:phoenix_live_view] ++ Mix.compilers() ++ [:surface],
-      listeners: [Phoenix.CodeReloader]
+      listeners: [Phoenix.CodeReloader],
+      test_coverage: [summary: [threshold: 85]]
     ]
   end
 
