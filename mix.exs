@@ -64,7 +64,8 @@ defmodule EsportsFan.MixProject do
       {:req, "~> 0.5"},
       {:telemetry_metrics, "~> 1.0"},
       {:telemetry_poller, "~> 1.0"},
-      {:gettext, "~> 1.0"},
+      # https://github.com/bitwalker/timex/issues/782
+      {:gettext, "~> 1.0", override: true},
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.2.0"},
       {:bandit, "~> 1.5"},
@@ -73,6 +74,7 @@ defmodule EsportsFan.MixProject do
       {:con_cache, "~> 1.1"},
       {:oban_web, "~> 2.11"},
       {:ecto_psql_extras, "~> 0.8"},
+      {:timex, "~> 3.7"},
       {:igniter, "~> 0.5", only: [:dev]},
       {:tidewave, "~> 0.5", only: :dev}
     ]

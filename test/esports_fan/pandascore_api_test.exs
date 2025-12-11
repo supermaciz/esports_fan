@@ -16,6 +16,7 @@ defmodule EsportsFan.PandascoreApiTest do
         %Conn{query_params: %{"page" => "3", "per_page" => "2"}} = conn ->
           send_json_array(conn, ["e"], 3, 2, 5)
 
+        # page = 1 default
         %Conn{query_params: %{"per_page" => "2"}} = conn ->
           send_json_array(conn, ["a", "b"], 1, 2, 5)
       end)
@@ -60,7 +61,7 @@ defmodule EsportsFan.PandascoreApiTest do
           |> File.read!()
           |> Jason.decode!()
 
-        send_json_array(conn, lol_matches, 1, 10, 1)
+        send_json_array(conn, lol_matches, 1, 100, length(lol_matches))
       end)
 
       assert {:ok, [%{} | _]} =
@@ -80,7 +81,7 @@ defmodule EsportsFan.PandascoreApiTest do
           |> File.read!()
           |> Jason.decode!()
 
-        send_json_array(conn, cs_matches, 1, 10, 1)
+        send_json_array(conn, cs_matches, 1, 100, length(cs_matches))
       end)
 
       assert {:ok, [%{} | _]} =

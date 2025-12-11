@@ -96,12 +96,9 @@ defmodule EsportsFan.PandascoreAPI do
   end
 
   defp build_client do
-    api_key = Application.fetch_env!(:esports_fan, __MODULE__)[:api_key]
+    options = Application.fetch_env!(:esports_fan, __MODULE__)[:req_options]
 
-    Req.new(
-      base_url: @base_url,
-      auth: {:bearer, api_key}
-    )
+    Req.new([base_url: @base_url] ++ options)
   end
 
   defp fetch_next_page(nil), do: {:halt, nil}
