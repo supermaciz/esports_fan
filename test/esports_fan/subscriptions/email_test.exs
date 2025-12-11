@@ -48,8 +48,6 @@ defmodule EsportsFan.Subscriptions.EmailTest do
 
   describe "newsletter/2 builds an email with correct body" do
     test "for League of Legends subscription", %{lol_user: user} do
-      Mix.Shell.IO.info("Test pid #{inspect(self())}")
-
       %Swoosh.Email{html_body: email_body} =
         EsportsFan.Subscriptions.Email.newsletter(user.email, user.user_subscriptions)
 
@@ -58,8 +56,6 @@ defmodule EsportsFan.Subscriptions.EmailTest do
     end
 
     test "for Counter-Strike subscription", %{cs_user: user} do
-      Mix.Shell.IO.info("Test pid #{inspect(self())}")
-
       %Swoosh.Email{html_body: email_body} =
         EsportsFan.Subscriptions.Email.newsletter(user.email, user.user_subscriptions)
 
@@ -68,8 +64,6 @@ defmodule EsportsFan.Subscriptions.EmailTest do
     end
 
     test "for both LoL and CS subscriptions", %{lol_cs_user: user} do
-      Mix.Shell.IO.info("Test pid #{inspect(self())}")
-
       %Swoosh.Email{html_body: email_body} =
         EsportsFan.Subscriptions.Email.newsletter(user.email, user.user_subscriptions)
 
