@@ -9,6 +9,8 @@ defmodule EsportsFan.Accounts.User do
     field :confirmed_at, :utc_datetime
     field :authenticated_at, :utc_datetime, virtual: true
 
+    has_many :user_subscriptions, EsportsFan.Subscriptions.UserSubscription
+
     timestamps(type: :utc_datetime)
   end
 

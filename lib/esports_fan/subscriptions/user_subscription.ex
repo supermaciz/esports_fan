@@ -6,7 +6,6 @@ defmodule EsportsFan.Subscriptions.UserSubscription do
   schema "user_subscriptions" do
     field :target_type, Ecto.Enum, values: [:player, :team, :videogame]
     field :target_id_or_slug, :string
-    field :frequency_days, :integer
     belongs_to :user, User
 
     timestamps(type: :utc_datetime)
