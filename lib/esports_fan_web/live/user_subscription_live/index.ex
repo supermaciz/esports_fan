@@ -29,9 +29,6 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Index do
         <:col :let={{_id, user_subscription}} label="Target id or slug">
           {user_subscription.target_id_or_slug}
         </:col>
-        <:col :let={{_id, user_subscription}} label="Frequency days">
-          {user_subscription.frequency_days}
-        </:col>
         <:action :let={{_id, user_subscription}}>
           <div class="sr-only">
             <.link navigate={~p"/user_subscriptions/#{user_subscription}"}>Show</.link>

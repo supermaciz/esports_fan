@@ -10,7 +10,7 @@ import Config
 config :esports_fan, Oban,
   engine: Oban.Engines.Basic,
   notifier: Oban.Notifiers.Postgres,
-  queues: [default: 10, emails: 10],
+  queues: [default: 10, emails: 20],
   repo: EsportsFan.Repo
 
 config :esports_fan, :scopes,
@@ -74,7 +74,7 @@ config :tailwind,
 # Configure Elixir's Logger
 config :logger, :default_formatter,
   format: "$time $metadata[$level] $message\n",
-  metadata: [:request_id, :user_id]
+  metadata: [:request_id, :user_id, :user_email]
 
 # Use Jason for JSON parsing in Phoenix
 config :phoenix, :json_library, Jason
