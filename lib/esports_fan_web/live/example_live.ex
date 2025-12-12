@@ -1,5 +1,5 @@
 defmodule EsportsFanWeb.ExampleLive do
-  use Surface.LiveView
+  use EsportsFanWeb, :surface_live_view
 
   alias EsportsFanWeb.Components.ExampleComponent
 

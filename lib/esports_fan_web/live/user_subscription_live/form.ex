@@ -18,12 +18,17 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
           field={@form[:target_type]}
           type="select"
           label="Target type"
-          prompt="Choose a value"
-          options={Ecto.Enum.values(EsportsFan.Subscriptions.UserSubscription, :target_type)}
+          options={["videogame"]}
         />
-        <.input field={@form[:target_id_or_slug]} type="text" label="Target id or slug" />
+        <.input
+          field={@form[:target_id_or_slug]}
+          type="select"
+          label="Video game"
+          prompt="Select a video game"
+          options={[{"LoL", "league-of-legends"}, {"Counter-Strike", "cs-go"}]}
+        />
         <footer>
-          <.button phx-disable-with="Saving..." variant="primary">Save User subscription</.button>
+          <.button phx-disable-with="Saving..." variant="primary">Save newsletter subject</.button>
           <.button navigate={return_path(@current_scope, @return_to, @user_subscription)}>
             Cancel
           </.button>
@@ -62,7 +67,7 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
     user_subscription = %UserSubscription{user_id: socket.assigns.current_scope.user.id}
 
     socket
-    |> assign(:page_title, "New User subscription")
+    |> assign(:page_title, "Newsletter subject subscription")
     |> assign(:user_subscription, user_subscription)
     |> assign(
       :form,
@@ -136,7 +141,4 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Form do
   end
 
   defp return_path(_scope, "index", _user_subscription), do: ~p"/user_subscriptions"
-
-  defp return_path(_scope, "show", user_subscription),
-    do: ~p"/user_subscriptions/#{user_subscription}"
 end
