@@ -5,7 +5,7 @@ Technical test: cf [instructions](./INSTRUCTIONS.md).
 An e-sports website and newsletter.
 
 Features:
-- Send a newsletter with last results and upcoming matches every 7 days
+- Send a newsletter with last results and upcoming matches every 7 days (based on Pandascore API)
 - Custom newsletter: users can pick one or more games they're interested in.
 - Newletters are visible in dev in http://localhost:4000/dev/mailbox
 
@@ -15,6 +15,7 @@ Features:
 Requirements:
 - Elixir 1.19 & Erlang 28
 - PostgreSQL
+- env var `PANDASCORE_API_KEY`: a [PandaScore](https://www.pandascore.co/) token. The free tier is enough.
 
 ### Prepare the DB
 
@@ -34,7 +35,7 @@ $ mix ecto.setup
 This command will create the database, run the migrations and seed the db with fake users (cf [mix.exs](./mix.exs)).
 
 > [!IMPORTANT]
-> The seed script only creates users. It does **not** create NewsletterWorker jobs for these users. 
+> The seed script only creates users. It does **not** create NewsletterWorker (Oban) jobs for these users. 
 > You will need to do this from iex console. cf [.iex.exs](./.iex.exs)
 
 To start your Phoenix server:
