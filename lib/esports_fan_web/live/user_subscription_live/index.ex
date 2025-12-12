@@ -8,10 +8,10 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Index do
     ~H"""
     <Layouts.app flash={@flash} current_scope={@current_scope}>
       <.header>
-        Listing User subscriptions
+        Customize your e-sports newsletter
         <:actions>
           <.button variant="primary" navigate={~p"/user_subscriptions/new"}>
-            <.icon name="hero-plus" /> New User subscription
+            <.icon name="hero-plus" /> Add subject
           </.button>
         </:actions>
       </.header>
@@ -19,20 +19,17 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Index do
       <.table
         id="user_subscriptions"
         rows={@streams.user_subscriptions}
-        row_click={
-          fn {_id, user_subscription} -> JS.navigate(~p"/user_subscriptions/#{user_subscription}") end
-        }
       >
-        <:col :let={{_id, user_subscription}} label="Target type">
+        <:col :let={{_id, user_subscription}} label="Type">
           {user_subscription.target_type}
         </:col>
-        <:col :let={{_id, user_subscription}} label="Target id or slug">
-          {user_subscription.target_id_or_slug}
+        <:col :let={{_id, user_subscription}} label="Name">
+          {videogame_slug_to_name(user_subscription.target_id_or_slug)}
         </:col>
         <:action :let={{_id, user_subscription}}>
-          <div class="sr-only">
+          <%!-- <div class="sr-only">
             <.link navigate={~p"/user_subscriptions/#{user_subscription}"}>Show</.link>
-          </div>
+          </div> --%>
           <.link navigate={~p"/user_subscriptions/#{user_subscription}/edit"}>Edit</.link>
         </:action>
         <:action :let={{id, user_subscription}}>
@@ -82,4 +79,8 @@ defmodule EsportsFanWeb.UserSubscriptionLive.Index do
   defp list_user_subscriptions(current_scope) do
     Subscriptions.list_user_subscriptions(current_scope)
   end
+
+  defp videogame_slug_to_name("league-of-legends"), do: "LoL"
+  defp videogame_slug_to_name("cs-go"), do: "Counter-Strike"
+  defp videogame_slug_to_name(slug), do: slug
 end

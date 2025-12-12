@@ -12,7 +12,8 @@
 alias EsportsFan.Repo
 alias EsportsFan.Accounts.User
 alias EsportsFan.Subscriptions.UserSubscription
-hashed_password = Argon2.hash_pwd_salt("Fake password!!!")
+
+hashed_password = Argon2.hash_pwd_salt("password")
 now = DateTime.utc_now() |> DateTime.truncate(:second)
 
 Enum.each(1..10000, fn i ->

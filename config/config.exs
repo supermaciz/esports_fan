@@ -10,8 +10,12 @@ import Config
 config :esports_fan, Oban,
   engine: Oban.Engines.Basic,
   notifier: Oban.Notifiers.Postgres,
-  queues: [default: 10, emails: 20],
-  repo: EsportsFan.Repo
+  queues: [default: 5, emails: 25],
+  repo: EsportsFan.Repo,
+  plugins: [
+    {Oban.Plugins.Pruner, max_age: 60 * 60 * 24 * 10},
+    Oban.Plugins.Lifeline
+  ]
 
 config :esports_fan, :scopes,
   user: [

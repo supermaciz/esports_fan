@@ -60,7 +60,6 @@ defmodule EsportsFanWeb.Router do
 
       live "/user_subscriptions", UserSubscriptionLive.Index, :index
       live "/user_subscriptions/new", UserSubscriptionLive.Form, :new
-      live "/user_subscriptions/:id", UserSubscriptionLive.Show, :show
       live "/user_subscriptions/:id/edit", UserSubscriptionLive.Form, :edit
     end
 

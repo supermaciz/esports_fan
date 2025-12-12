@@ -56,6 +56,15 @@ defmodule EsportsFanWeb do
     end
   end
 
+  def surface_live_view do
+    quote do
+      # , layout: {EsportsFanWeb.Layouts, :app}
+      use Surface.LiveView
+
+      unquote(html_helpers())
+    end
+  end
+
   def live_component do
     quote do
       use Phoenix.LiveComponent
