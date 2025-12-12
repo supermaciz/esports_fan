@@ -23,5 +23,9 @@ defmodule EsportsFan.Subscriptions.UserSubscription do
     |> cast(attrs, [:target_type, :target_id_or_slug])
     |> validate_required([:target_type, :target_id_or_slug])
     |> put_change(:user_id, user_scope.user.id)
+    |> unique_constraint(:target_id_or_slug,
+      name: :unique_user_subscription_per_target,
+      message: "You are already subscribed to this subject."
+    )
   end
 end
