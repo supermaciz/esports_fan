@@ -7,7 +7,8 @@ An e-sports website and newsletter.
 Features:
 - Send a newsletter with last results and upcoming matches every 7 days (based on Pandascore API)
 - Custom newsletter: users can pick one or more games they're interested in.
-- Newletters are visible in dev in http://localhost:4000/dev/mailbox
+- Emails are visible in dev in http://localhost:4000/dev/mailbox
+- Oban web in dev: http://localhost:4000/dev/oban
 
 
 ## Run the project
@@ -17,50 +18,54 @@ Requirements:
 - PostgreSQL
 - env var `PANDASCORE_API_KEY`: a [PandaScore](https://www.pandascore.co/) token. The free tier is enough.
 
-### Prepare the DB
 
-You need a PostgreSQL instance. You can use the _docker-compose.yml_.
+You can use the _docker-compose.yml_ to start a PostgreSQL instance.
 ```shell
 # To create and start the container
 $ docker compose up -d postgres
 
-# start the container
+# start the container if it already exists
 $ docker compose start postgres
 ```
 
-You can set up the DB with:
-```shell
-$ mix ecto.setup
-```
-This command will create the database, run the migrations and seed the db with fake users (cf [mix.exs](./mix.exs)).
 
-> [!IMPORTANT]
-> The seed script only creates users. It does **not** create NewsletterWorker (Oban) jobs for these users. 
-> You will need to do this from iex console. cf [.iex.exs](./.iex.exs)
+Run `mix setup` to install and setup dependencies once postgres is running. It also setup the DB (creation, migration, seed).  
 
-To start your Phoenix server:
 
-* Run `mix setup` to install and setup dependencies
-* Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-### Start the server
-
-Don't forget `PANDASCORE_API_KEY`.  
-It's a classic phoenix app. You can start it with
+EsportsFan is a classic phoenix app. You can start it with
 
 ```shell
-$ mix phx.server
+$ PANDASCORE_API_KEY=XXX mix phx.server
 ```
 or this if you want the console
 
 ```shell
-$ iex -S mix phx.server
+$ PANDASCORE_API_KEY=XXX iex -S mix phx.server
 ```
+
+Now you can visit http://localhost:4000 from your browser.
+
+
+## About the DB
+
+### Seed
+
+```shell
+$ mix run priv/repo/seeds.exs
+```
+This command will seed the DB with 20000 fake users with subscriptions (cf [mix.exs](./mix.exs)).
+
+> [!IMPORTANT]
+> The seed script only creates users. It does **not** create Oban jobs responsible for sending newsletters. 
+> You will need to do this from iex console. cf [.iex.exs](./.iex.exs)
+
+
+
 
 
 ## Running the tests
+
+`PANDASCORE_API_KEY` is not needed.
 
 ```shell
 $ mix test
