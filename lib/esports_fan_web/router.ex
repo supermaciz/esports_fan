@@ -1,4 +1,5 @@
 defmodule EsportsFanWeb.Router do
+  # alias EsportsFanWeb.HomeLive
   use EsportsFanWeb, :router
 
   import Oban.Web.Router
@@ -21,8 +22,7 @@ defmodule EsportsFanWeb.Router do
   scope "/", EsportsFanWeb do
     pipe_through :browser
 
-    # get "/", PageController, :home
-    live "/", ExampleLive
+    live "/", HomeLive
   end
 
   # Other scopes may use custom stacks.
