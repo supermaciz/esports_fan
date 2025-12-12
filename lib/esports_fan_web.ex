@@ -58,7 +58,8 @@ defmodule EsportsFanWeb do
 
   def surface_live_view do
     quote do
-      use Surface.LiveView #, layout: {EsportsFanWeb.Layouts, :app}
+      # , layout: {EsportsFanWeb.Layouts, :app}
+      use Surface.LiveView
 
       unquote(html_helpers())
     end
