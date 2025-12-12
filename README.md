@@ -45,6 +45,21 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
+### Start the server
+
+Don't forget `PANDASCORE_API_KEY`.  
+It's a classic phoenix app. You can start it with
+
+```shell
+$ mix phx.server
+```
+or this if you want the console
+
+```shell
+$ iex -S mix phx.server
+```
+
+
 ## Running the tests
 
 ```shell
