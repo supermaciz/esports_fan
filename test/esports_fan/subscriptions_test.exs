@@ -56,6 +56,20 @@ defmodule EsportsFan.SubscriptionsTest do
                Subscriptions.create_user_subscription(scope, @invalid_attrs)
     end
 
+    test "create_user_subscription/2 returns unique constraint error on duplicates" do
+      scope = user_scope_fixture()
+      _existing = user_subscription_fixture(scope)
+
+      assert {:error, changeset} =
+               Subscriptions.create_user_subscription(scope, %{
+                 target_type: :videogame,
+                 target_id_or_slug: "league-of-legends"
+               })
+
+      assert %{target_id_or_slug: ["You are already subscribed to this subject."]} =
+               errors_on(changeset)
+    end
+
     test "update_user_subscription/3 with valid data updates the user_subscription" do
       scope = user_scope_fixture()
       user_subscription = user_subscription_fixture(scope)

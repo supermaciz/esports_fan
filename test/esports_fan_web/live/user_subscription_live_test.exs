@@ -4,16 +4,6 @@ defmodule EsportsFanWeb.UserSubscriptionLiveTest do
   import Phoenix.LiveViewTest
   import EsportsFan.SubscriptionsFixtures
 
-  @create_attrs %{
-    target_type: :player,
-    target_id_or_slug: "some target_id_or_slug"
-  }
-  @update_attrs %{
-    target_type: :team,
-    target_id_or_slug: "some updated target_id_or_slug"
-  }
-  @invalid_attrs %{target_type: nil, target_id_or_slug: nil}
-
   setup :register_and_log_in_user
 
   defp create_user_subscription(%{scope: scope}) do
@@ -36,6 +26,20 @@ defmodule EsportsFanWeb.UserSubscriptionLiveTest do
              |> render_click()
 
       refute has_element?(index_live, "#user_subscriptions-#{user_subscription.id}")
+    end
+  end
+
+  describe "Form" do
+    setup [:create_user_subscription]
+
+    test "shows unique constraint error when submitting duplicate subject", %{conn: conn} do
+      {:ok, view, _html} = live(conn, ~p"/user_subscriptions/new")
+
+      duplicate_params = %{target_type: "videogame", target_id_or_slug: "league-of-legends"}
+
+      assert view
+             |> form("#user_subscription-form", user_subscription: duplicate_params)
+             |> render_submit() =~ "You are already subscribed to this subject."
     end
   end
 end
