@@ -7,7 +7,7 @@ An e-sports website and newsletter.
 Features:
 - Send a newsletter with last results and upcoming matches every 7 days (based on Pandascore API)
 - Custom newsletter: users can pick one or more games they're interested in.
-- Emails are visible in dev in http://localhost:4000/dev/mailbox
+- Emails are visible in dev in http://localhost:4000/dev/mailbox (stored in memory)
 - Oban web in dev: http://localhost:4000/dev/oban
 
 
