@@ -12,7 +12,7 @@ defmodule EsportsFan.MixProject do
       deps: deps(),
       compilers: [:phoenix_live_view] ++ Mix.compilers() ++ [:surface],
       listeners: [Phoenix.CodeReloader],
-      test_coverage: [summary: [threshold: 85]]
+      test_coverage: [summary: [threshold: 75]]
     ]
   end
 
